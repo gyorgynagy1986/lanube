@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './Fotter.module.css'
 import Link from 'next/link'
-import Button from '../UI/Buttons/ButtonGetInTouch'
+import Button from '../UI/Buttons/Button'
 
 const bromoStyle = {
   marginTop: '1px',
@@ -17,7 +17,7 @@ const Footer = () => {
     <footer className={style.container}>
         <div className={style.containerTextleft}>
           <p className={style.containerTextleftCookieMobile} >Cookie policy</p>    
-            <Button url={'/'} underline={true} name={'GRUPO10'}/>
+            <Button btnFooter={true} url={'/'} name={'GRUPO10'}/>
             <div className={style.containerTextP}>
                 <p className={style.containerTextleftP}></p>
             </div>

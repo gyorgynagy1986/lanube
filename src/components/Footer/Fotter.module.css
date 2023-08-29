@@ -63,7 +63,7 @@
   font-size: 14px;
   line-height: 150%;
   /* or 21px */
-  color: #fff4e5;
+  color: var(--btn1Color);
   margin-top: 21.5px;
 }
 
@@ -72,12 +72,12 @@
   font-weight: 400;
   font-size: 14px;
   line-height: auto;
-  color: var(--titleColor);
+  color:var(--btn1Color);
   text-decoration-line: underline;
 }
 
 .containerTextleft a:hover {
-  color: var(--titleColor4Hover);
+  color: white;
 }
 
 .containerCookie {

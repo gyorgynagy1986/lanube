@@ -47,72 +47,10 @@
     transition: all .4ms ease-in;
 }
 
-.differentTexMainColor::before {
-        content: 'Jelentkezem';
-        position: absolute;
-        padding: 10px 20px;
-        left: 0px;
-        top: 0px;
-        right: 0px;
-        bottom: 0px;
-        border-radius: 10px;
-        background: var(--titleColorHover);
-        opacity: 0;
-        transition: all .1s ease-in-out;
-}
-
-.differentTexMainColor:hover::before {
-    opacity: 1;
-}
-
-
-.engColorPrefix::before {
-    content: 'reservation';
-}
-
-.engColorPrefix:hover::before {
-opacity: 1;
-}
-
-.engColorPrefixBlue::before {
-    content: 'our menu';
-}
-
-.engColorPrefixBlue:hover::before {
-opacity: 1;
-}
-
-.engColorPrefixBlueContact::before {
-    content: 'get in touch';
-}
-
-.engColorPrefixBlueContact:hover::before {
-opacity: 1;
-}
-
-.engColorPrefixJoin::before {
-    content: 'I want to join';
-}
-
-.engColorPrefixoin:hover::before {
-opacity: 1;
-}
-
-.engColorPreReserv::before {
-    content: 'reservation';
-}
-
-.engColorPreReserv:hover::before {
-opacity: 1;
-}
-
-
-.btnHoverPrefix::before {
-    content: 'reservation';
-}
-
-.btnHoverPrefix:hover::before {
-opacity: 1;
+.btnFooter {
+    padding: 0 !important; 
+    background-color: transparent;
+    font-size: 3.2rem;
 }
 
 
