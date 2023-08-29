@@ -54,6 +54,8 @@
   --h1SpanMaxWidth:50px;
 
   --eventContainerPadding: 5rem 8rem 5rem 8rem;
+
+  --eventAndJoinUsContainerWidth:50%;
 }
 
 
@@ -68,6 +70,7 @@
     --h1title: max(28px, min(10vw, 42px));
     --h2title: max(28px, min(10vw, 32px));
     --eventContainerPadding: 5rem 4rem 5rem 4rem;
+    --eventAndJoinUsContainerWidth:100%;
 
   }
 }

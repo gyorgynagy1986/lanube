@@ -17,7 +17,7 @@ export const heroData = {
 export const heroDataEn = {
   h1: "La Nube",
   p: "Would you like to try a delicious grilled chicken or grilled duck with potatoes? You are at the best place!",
-  btn: "Reservation",
+  btn: "Book a table now",
   btn2: "Get in touch",
   url: "/en/contact",
 };

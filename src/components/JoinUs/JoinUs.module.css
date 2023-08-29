@@ -5,7 +5,7 @@
     align-items:center;
     flex-direction: column;
     background-color: #FFFFFF;
-    width: 50%;
+    width: var(--eventAndJoinUsContainerWidth);
     min-height: 358px;
     border-radius: 3rem;
     box-shadow: 5px 5px 20px 0px #00000040;

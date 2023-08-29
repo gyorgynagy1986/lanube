@@ -7,8 +7,6 @@ import Image from "next/image";
 import ContactItems from "./ContactItems";
 import mapPhoto from "../../../public/assets/sections/map_contact.png";
 
-const dosis = Dosis({ subsets: ["latin"] });
-
 const textContent = {
   h2: "Nyitvatartás",
   btn: "asztalfoglalás",
@@ -18,7 +16,7 @@ const textContent = {
 
 const textContentEn = {
   h2: "Opening Hours",
-  btn: "reservation",
+  btn: "Book a table now",
   btn2: "Get in Touch",
   url: "/en/contact",
 };
@@ -35,7 +33,7 @@ const Contact = ({ reservation, lang }) => {
         <Image placeholder="blur" alt="lanube" src={mapPhoto} />
       </div>
       <div className={style.textContainer}>
-        <h2 className={dosis.className}>{h3EngLogic}</h2>
+        <h2>{h3EngLogic}</h2>
         <span className={style.h1Span}></span>
         <div className={style.textBoxContainer}>
           <ContactItems lang={lang} />

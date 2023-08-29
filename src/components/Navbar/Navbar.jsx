@@ -23,7 +23,7 @@ const textContentHu = {
 };
 
 const textContentEng = {
-  btnName: "reservation",
+  btnName: "Book a table now",
 };
 
 
