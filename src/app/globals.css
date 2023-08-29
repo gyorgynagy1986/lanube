@@ -51,10 +51,11 @@
 
   --imageContainerWidth: 55%;
   --imgMaxW: 800px;
+  
   --h1SpanMaxWidth:50px;
-
+  
+  /*Event join US*/
   --eventContainerPadding: 5rem 8rem 5rem 8rem;
-
   --eventAndJoinUsContainerWidth:50%;
 }
 
@@ -71,7 +72,6 @@
     --h2title: max(28px, min(10vw, 32px));
     --eventContainerPadding: 5rem 4rem 5rem 4rem;
     --eventAndJoinUsContainerWidth:100%;
-
   }
 }
 
