@@ -9,12 +9,12 @@ import Image from "next/image";
 import ButtonGetInTouch from "../UI/Buttons/ButtonGetInTouch";
 import HeroCoverPhoto from "../../../public/assets/hero/hero.webp";
 import { heroData, heroDataEn } from "@/data/data";
+import { getHeroContent } from "@/data/language-handler";
 
-const mukta = Mukta({weight: "700", subsets: ["latin"] });
+const mukta = Mukta({ weight: "700", subsets: ["latin"] });
 
 const Hero = ({ reservation, lang }) => {
   const [stickyNav, setStickyNav] = useState(false);
-
   const menuRef = useRef();
 
   useEffect(() => {
@@ -32,6 +32,9 @@ const Hero = ({ reservation, lang }) => {
     observer.observe(menuRef.current);
   }, []);
 
+  const { h1Data, pData, btnNameName, btnNameSec, btnNameSecUrl } =
+    getHeroContent(lang, heroData, heroDataEn);
+
   return (
     <header ref={menuRef} className={style.container}>
       {stickyNav && <StickyNav />}
@@ -39,21 +42,16 @@ const Hero = ({ reservation, lang }) => {
         <Image placeholder="blur" alt="lanube" priority src={HeroCoverPhoto} />
       </div>
       <div className={style.textContainer}>
-        <h1 >
-          {!lang ? heroData.h1 : heroDataEn.h1}
-        </h1>
-        <p>{!lang ? heroData.p : heroDataEn.p}</p>
+        <h1>{h1Data}</h1>
+        <span className={style.h1Span}></span>
+        <p>{pData}</p>
         <div className={style.btnContainer}>
           <Button
-            className={mukta.style}
-            engColorPrefix={lang ? true : false}
+            className={mukta.className}
             url={reservation}
-            name={!lang ? heroData.btn : heroDataEn.btn}
+            name={btnNameName}
           />
-          <ButtonGetInTouch
-            url={!lang ? heroData.url : heroDataEn.url}
-            name={!lang ? heroData.btn2 : heroDataEn.btn2}
-          />
+          <ButtonGetInTouch url={btnNameSecUrl} name={btnNameSec} />
         </div>
       </div>
     </header>

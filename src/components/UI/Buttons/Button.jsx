@@ -5,14 +5,16 @@ import {Mukta } from 'next/font/google'
 
 const bebas = Mukta({ subsets: ['latin'], weight: "700" })
 
-const Button = ({name, url,}) => {
+const Button = ({name, url, btEmpthy}) => {
 
   return (
     <Link href={url}>
       <button 
         className={
           `${style.button}
-           ${bebas.className}`}>
+           ${bebas.className}
+           ${btEmpthy && style.btEmpthy}
+           `}>
           {name}
       </button>
     </Link>

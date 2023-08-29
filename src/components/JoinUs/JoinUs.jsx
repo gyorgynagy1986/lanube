@@ -4,20 +4,9 @@ import React from "react";
 import style from "./JoinUs.module.css";
 import Button from "../UI/Buttons/Button";
 import { Dosis } from "next/font/google";
-
+import { JoinUsData, JoinUsDataEn } from "@/data/data";
+import { getJoinUsContent } from "@/data/language-handler";
 const dosis = Dosis({ subsets: ["latin"] });
-
-const textContent = {
-  h2: "Dolgozz velünk!",
-  btn: "Jelentkezem",
-  url: "/kapcsolat",
-};
-
-const textContentEn = {
-  h2: "Join our team! ",
-  btn: "I want to join",
-  url: "/en/contact",
-};
 
 const text = (
   <p className={style.h2}>
@@ -25,6 +14,7 @@ const text = (
     önéletrajzod a pozíció megjelölésével. Amint tudunk, visszajelzünk!
   </p>
 );
+
 const textEn = (
   <p className={style.h2}>
     Send us an e-mail to <span>hola@lanubebp.hu</span> with your CV and position
@@ -33,24 +23,28 @@ const textEn = (
 );
 
 const JoinUs = ({ lang }) => {
-
-  const btnLogic = !lang ? textContent.btn : textContentEn.btn;
-  const btnUrl = !lang ? textContent.url : textContentEn.url;
-  const h2Logic = !lang ? textContent.h2 : textContentEn.h2;
+  const { btnLogic, btnUrl, h2Logic } = getJoinUsContent(
+    lang,
+    JoinUsData,
+    JoinUsDataEn
+  );
 
   return (
-    <section className={style.container}>
+    <div className={style.container}>
       <div className={style.containerText}>
         <h2 className={dosis.className}>{h2Logic}</h2>
+        <span className={style.h1Span}></span>
         {!lang ? text : textEn}
+      </div>
+      <div className={style.btnContainer}>
         <Button
           engColorPrefixJoin={lang ? true : false}
-          differentTexMainColor={true}
+          btEmpthy={true}
           name={btnLogic}
           url={btnUrl}
         />
       </div>
-    </section>
+    </div>
   );
 };
 

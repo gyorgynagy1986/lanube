@@ -5,8 +5,8 @@
   background-color: #000000;
   display: flex;
   align-items: center;
-  padding-left: 8.5rem;
-  padding-right: 8.5rem;
+  padding-left: var(--paddinLeftRightgGlobal);
+  padding-right: var(--paddinLeftRightgGlobal);
   overflow: hidden;
 }
 

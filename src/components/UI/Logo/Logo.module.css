@@ -1,5 +1,5 @@
 .logoMain {
-    left: 4rem;
+    left: var(--paddinLeftRightgGlobal);
     top: 30px;
     z-index: 0;
     position: absolute;

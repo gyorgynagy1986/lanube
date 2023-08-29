@@ -1,38 +1,19 @@
 "use client";
 
 import style from "./Services.module.css";
-import { Dosis, Bebas_Neue } from "next/font/google";
+import { DM_Mono } from "next/font/google";
+import { servicesData, servicesDataEn } from "@/data/data";
+import {getServiceContent} from '@/data/language-handler'
 import Image from "next/image";
 import HeroCoverPhoto from "../../../public/assets/sections/Our_services2.png";
 
-const dosis = Dosis({ subsets: ["latin"] });
-const bebas = Bebas_Neue({ subsets: ["latin"], weight: "400" });
-
-const textContent = {
-  h2: "Szolgáltatások ",
-  p: "Örömmel várjuk asztalfoglalásod éttermünkben, ha céges rendezvényt szervezel, vagy megünnepelnél egy különleges pillanatot családoddal vagy barátaiddal. Mi biztosítjuk a finom ételeket és a jó hangulatot!",
-  p1: "Céges rendezvények",
-  p2: "baráti összejövetelek",
-  p3: "születésnapok",
-};
-
-const textContentEn = {
-  h2: "Services ",
-  p: "We are looking forward to your table reservation in our restaurant, whether it is for a corporate event or celebrating a special moment with your family or friends. We guarantee the delicious food and a great atmosphere!",
-  p1: "Corporate events",
-  p2: "get-togethers",
-  p3: "birthday celebrations",
-};
+const dMMono = DM_Mono({ weight: "500", subsets: ["latin"] });
 
 const Services = ({ lang }) => {
-  
-  const titleLogic = !lang ? textContent.h2 : textContentEn.h2;
-  const liLogic = !lang ? textContent.p1 : textContentEn.p1;
-  const liLogic2 = !lang ? textContent.p2 : textContentEn.p2;
-  const liLogic3 = !lang ? textContent.p3 : textContentEn.p3;
-  const pLgoic = !lang ? textContent.p : textContentEn.p;
-  const ulStyle = `${bebas.className} ${style.ulContainer}`;
+  const { titleLogic, liLogic, liLogic2, liLogic3, pLgoic } =
+    getServiceContent(lang, servicesData, servicesDataEn);
 
+  const ulStyle = `${dMMono.className} ${style.ulContainer}`
   return (
     <section className={style.container}>
       <div className={style.imageContainer}>
@@ -41,7 +22,9 @@ const Services = ({ lang }) => {
         <Image placeholder="blur" alt="lanube" src={HeroCoverPhoto} />
       </div>
       <div className={style.textContainer}>
-        <h2 className={dosis.className}>{titleLogic}</h2>
+        <h2>{titleLogic}</h2>
+        <span className={style.h1Span}></span>
+
         <ul className={ulStyle}>
           <li>{liLogic}</li>
           <li>{liLogic2}</li>

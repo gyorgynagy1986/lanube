@@ -36,6 +36,7 @@ const Contact = ({ reservation, lang }) => {
       </div>
       <div className={style.textContainer}>
         <h2 className={dosis.className}>{h3EngLogic}</h2>
+        <span className={style.h1Span}></span>
         <div className={style.textBoxContainer}>
           <ContactItems lang={lang} />
         </div>

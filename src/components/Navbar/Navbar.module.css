@@ -5,8 +5,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 4rem;
-    padding-left: 4rem;
+    padding-left: var(--paddinLeftRightgGlobal);
+    padding-right: var(--paddinLeftRightgGlobal);
     background-color: #FFFFFF;
     box-shadow: 0px 4px 10px 0px #0000001A;
 }
@@ -18,7 +18,7 @@
 }
 
 .footerNav {
-    background-color: #222222;
+    background-color: #FFFFFF;
     justify-content: space-between !important;
 }
 
@@ -132,10 +132,7 @@
 
 @media only screen and (max-width: 1150px) {
 
-    .nav {
-        padding-right: 4rem;
-        padding-left: 4rem;
-    }
+    
 
     .ulHide {
         display: none;  
@@ -184,10 +181,6 @@
 
 @media only screen and (max-width: 681px) {
 
-    .nav {
-        padding-right: 2rem;
-        padding-left: 2rem;
-    }
 
 
     .socialNav {

@@ -4,12 +4,8 @@ import Event from "@/components/Event/Event";
 import JoinUs from "@/components/JoinUs/JoinUs";
 import Contact from "@/components/Contact/Contact";
 import Services from "@/components/Services/Services";
-
-const links = {
-  facebook: "",
-  instagram: "",
-  reservation: "",
-};
+import Wrapper from "@/components/Wrapper/Wrapper"
+import {links} from '@/data/data'
 
 export default function Home() {
   return (
@@ -18,8 +14,10 @@ export default function Home() {
         <main>
           <SectionStory />
           <Services />
-          <Event />
-          <JoinUs />
+          <Wrapper>
+            <Event />
+            <JoinUs />
+          </Wrapper>
           <Contact reservation={links.reservation} />
         </main>
     </>

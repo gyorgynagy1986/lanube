@@ -67,12 +67,12 @@ const CoverPhotoItems = ({ photoGalleryHandler }) => {
         <div
           onClick={() => handleClick(coverPhoto.id)}
           className={style.hoverProperty}
+          key={coverPhoto.id}
         >
           <Image
             // priority
             placeholder="blur"
             onClick={() => handleClick(coverPhoto.id)}
-            key={coverPhoto.id}
             alt={coverPhoto.alt}
             src={coverPhoto.url}
           ></Image>

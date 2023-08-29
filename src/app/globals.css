@@ -1,53 +1,110 @@
 :root {
-  --bcColor:#222222; ;
-  --mainTextColor:#CCCCCC;
-  --titleColor:#FFFFFF;
-  --titleColor2:#FFFFFF;
+  --bcColor: #222222;
+  --mainTextColor: #cccccc;
+  --titleColor: #ffffff;
+  --titleColor2: #ffffff;
   --navTextColor: #000000;
-  --mobileMenuColor:#2D2D2D;
+  --mobileMenuColor: #2d2d2d;
 
-  --btn1Color: #DE0000;
-  --btn2Color: #DE0000;
-  --btnTextColor: #FFFFFF;
+  --btn1Color: #de0000;
+  --btn2Color: #de0000;
+  --btnTextColor: #ffffff;
 
-  --titleColorHover: radial-gradient(72.58% 318.91% at 7.42% 100%, #EE8100 0%, #EC4700 64.24%, #EC0E00 100%);
-  --titleColor2Hover:radial-gradient(85.42% 369.23% at 0% 155.68%, #009D8C 0%, #003FE1 53.88%, #3400C9 100%);
-  --titleColor3Hover: #FFFFFF;
-  --titleColor4Hover:#EE0000;
-  --languageHover:#AAAAAA;
+  --titleColorHover: radial-gradient(
+    72.58% 318.91% at 7.42% 100%,
+    #ee8100 0%,
+    #ec4700 64.24%,
+    #ec0e00 100%
+  );
+  --titleColor2Hover: radial-gradient(
+    85.42% 369.23% at 0% 155.68%,
+    #009d8c 0%,
+    #003fe1 53.88%,
+    #3400c9 100%
+  );
+  --titleColor3Hover: #ffffff;
+  --titleColor4Hover: #ee0000;
+  --languageHover: #aaaaaa;
 
-  --h1title:max(28px,min(4vw,78px));
-  --h1lineH:max(35px,min(10vw,54px));
-  
+  --h1title: max(28px, min(3vw, 72px));
+  --h1lineH: max(35px, min(10vw, 54px));
+
+  --h2title: max(28px, min(2.5vw, 62px));
+  --h2lineH: 41.66px;
+
   --plineH: 20.83px;
-  --ptext: max(16px,min(4vw,18px));
+  --ptext: max(14px, min(3vw, 16px));
 
-  --h1titleSm:max(40px,min(10vw,60px));
+  --h1titleSm: max(40px, min(10vw, 60px));
 
-  --h1titleBig:max(78px,min(30vw,120px));
-  --h1lineHBig:max(50px,min(10vw,100px));
-  
+  --h1titleBig: max(78px, min(30vw, 90px));
+  --h1lineHBig: max(50px, min(10vw, 100px));
+
   --plineHBig: 30.83px;
-  --ptextBig: max(18px,min(4vw,24px));
+  --ptextBig: max(18px, min(4vw, 24px));
 
+  --paddinLeftRightgGlobal: 5vw;
+  --textContainerPaddingTopBottom: 4rem;
 
+  --textContainerWidth: 45%;
+  --textMaxWidth: 80%;
+
+  --imageContainerWidth: 55%;
+  --imgMaxW: 800px;
+  --h1SpanMaxWidth:50px;
+
+  --eventContainerPadding: 5rem 8rem 5rem 8rem;
 }
 
+
+/*TABLET*/
+
+@media only screen and (max-width: 1150px) {
+  :root {
+    --imgMaxW: 600px;
+    --imageContainerWidth: 100%;
+    --textMaxWidth: 90vw;
+    --textContainerWidth: 100%;
+    --h1title: max(28px, min(10vw, 42px));
+    --h2title: max(28px, min(10vw, 32px));
+    --eventContainerPadding: 5rem 4rem 5rem 4rem;
+
+  }
+}
+
+/*MOBILE*/
+
+@media only screen and (max-width: 681px) {
+  :root {
+    --textMaxWidth: 100%;
+  }
+}
+
+/*ULTRA-BIG-SCREEN*/
+
+@media only screen and (min-width: 1800px) {
+  :root {
+    --h1SpanMaxWidth:100px;
+    --h2lineH: 60.66px;
+  }
+}
+
+
 *::-webkit-scrollbar {
-  width: .8em;
-  background-color: #fde4cf ;
-} 
+  width: 0.8em;
+  background-color: #fde4cf;
+}
 
 *::-webkit-scrollbar-thumb {
-  background-color: #DE0000 ;
+  background-color: #de0000;
   height: 300px;
   border-radius: 50px;
 }
 
-*:focus, *:active {
+*:focus,
+*:active {
   box-shadow: none;
   outline: none !important;
-
 }
 
 * {
@@ -59,21 +116,21 @@
 }
 
 .overflow-hidden {
-overflow: hidden !important;
+  overflow: hidden !important;
 }
 
 html,
 body {
   overflow-x: hidden;
-  font-size: 62.5%; 
+  font-size: 62.5%;
   scroll-behavior: inherit;
 }
 
 body {
- background-color: var(--bcColor);
- color: var(--mainTextColor);
- margin-inline:auto;
- position: relative;
+  background-color: var(--bcColor);
+  color: var(--mainTextColor);
+  margin-inline: auto;
+  position: relative;
 }
 
 li {
@@ -83,4 +140,9 @@ li {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.event-and-joinUs-container {
+  display: flex;
+  background-color: #e66a6a;
 }
