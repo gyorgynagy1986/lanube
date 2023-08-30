@@ -64,13 +64,6 @@
   text-align: center;
 }
 
-@media only screen and (min-width: 2160px) {
-  .textContainer p {
-    font-size: var(--ptextBig);
-    line-height: var(--plineHBig);
-    max-width: var(--textMaxWidth);
-  }
-}
 
 .btnContainer {
   display: flex;

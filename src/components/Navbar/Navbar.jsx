@@ -15,8 +15,7 @@ import MobileMenu from "../Mobile/MobileMenu";
 import NavItems from "./NavItems";
 import LanguageLinks from "./LanguageLinks";
 import { usePathname } from "next/navigation";
-import {links} from '@/data/data'
-
+import { links } from "@/data/data";
 
 const textContentHu = {
   btnName: "asztalfoglalás",
@@ -25,7 +24,6 @@ const textContentHu = {
 const textContentEng = {
   btnName: "Book a table now",
 };
-
 
 const Navbar = ({ NavFooter, nav, colorMobileMenu }) => {
   const [mobileMenu, SetMobileMene] = useState(false);
@@ -68,7 +66,7 @@ const Navbar = ({ NavFooter, nav, colorMobileMenu }) => {
   const languageLinksLogic = `${style.lng} ${NavFooter && style.lngHide} ${
     nav && style.lngNav
   }`;
- 
+
   const btnEngLogic = `${
     pathname === "/en" ||
     pathname === "/en/menu" ||
@@ -77,7 +75,7 @@ const Navbar = ({ NavFooter, nav, colorMobileMenu }) => {
       ? textContentEng.btnName
       : textContentHu.btnName
   }`;
-  
+
   const btnHoverPrefix = `${
     pathname === "/en" ||
     pathname === "/en/menu" ||

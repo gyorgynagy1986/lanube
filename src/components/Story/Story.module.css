@@ -53,12 +53,6 @@
   margin-bottom: 15px;
 }
 
-@media only screen and (min-width: 2160px) {
-  .textContainer h2 {
-    font-size: var(--h1titleBig);
-    line-height: var(--h1lineHBig);
-  }
-}
 
 .textContainer p {
   font-size: var(--ptext);
@@ -66,14 +60,6 @@
   margin-bottom: 3rem;
   max-width: var(--textMaxWidth);
   text-align: center;
-}
-
-@media only screen and (min-width: 2160px) {
-  .textContainer p {
-    font-size: var(--ptextBig);
-    line-height: var(--plineHBig);
-    max-width: 600px;
-  }
 }
 
 .btnContainer {

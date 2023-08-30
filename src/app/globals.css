@@ -35,6 +35,9 @@
   --plineH: 20.83px;
   --ptext: max(14px, min(3vw, 16px));
 
+  --ulLiTextSize: max(14px, min(3vw, 18px));
+  --ulLiTextLineH:27px;
+
   --h1titleSm: max(40px, min(10vw, 60px));
 
   --h1titleBig: max(78px, min(30vw, 90px));
@@ -89,6 +92,11 @@
   :root {
     --h1SpanMaxWidth:100px;
     --h2lineH: 60.66px;
+    --ulLiTextSize: max(14px, min(3vw, 22px));
+    --ulLiTextLineH:30px;
+    --ptext: max(17px, min(4vw, 20px));
+    --plineH: 25.83px;
+
   }
 }
 
