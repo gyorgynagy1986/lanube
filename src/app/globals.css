@@ -1,6 +1,6 @@
 :root {
-  --bcColor: #222222;
-  --mainTextColor: #cccccc;
+  --bcColor: #333333;
+  --mainTextColor: #ffffff;
   --titleColor: #ffffff;
   --titleColor2: #ffffff;
   --navTextColor: #000000;
@@ -9,6 +9,7 @@
   --btn1Color: #de0000;
   --btn2Color: #de0000;
   --btnTextColor: #ffffff;
+  --btnContact: #ED8A23;
 
   --titleColorHover: radial-gradient(
     72.58% 318.91% at 7.42% 100%,
@@ -33,9 +34,9 @@
   --h2lineH: 41.66px;
 
   --plineH: 20.83px;
-  --ptext: max(14px, min(3vw, 16px));
+  --ptext: max(16px, min(3vw, 17px));
 
-  --ulLiTextSize: max(14px, min(3vw, 18px));
+  --ulLiTextSize: max(18px, min(3vw, 18px));
   --ulLiTextLineH:27px;
 
   --h1titleSm: max(40px, min(10vw, 60px));
@@ -53,7 +54,7 @@
   --textMaxWidth: 80%;
 
   --imageContainerWidth: 55%;
-  --imgMaxW: 800px;
+  --imgMaxW: 1000px;
   
   --h1SpanMaxWidth:50px;
   
@@ -71,8 +72,8 @@
     --imageContainerWidth: 100%;
     --textMaxWidth: 90vw;
     --textContainerWidth: 100%;
-    --h1title: max(28px, min(10vw, 42px));
-    --h2title: max(28px, min(10vw, 32px));
+    --h1title: max(32px, min(5vw, 42px));
+    --h2title: max(24px, min(5vw, 32px));
     --eventContainerPadding: 5rem 4rem 5rem 4rem;
     --eventAndJoinUsContainerWidth:100%;
   }
@@ -83,6 +84,8 @@
 @media only screen and (max-width: 681px) {
   :root {
     --textMaxWidth: 100%;
+    --textContainerPaddingTopBottom: 2rem;
+    --h2lineH: 31.25px;
   }
 }
 
@@ -94,7 +97,7 @@
     --h2lineH: 60.66px;
     --ulLiTextSize: max(14px, min(3vw, 22px));
     --ulLiTextLineH:30px;
-    --ptext: max(17px, min(4vw, 20px));
+    --ptext: max(17px, min(4vw, 19px));
     --plineH: 25.83px;
 
   }
@@ -156,4 +159,38 @@ a {
 .event-and-joinUs-container {
   display: flex;
   background-color: #e66a6a;
+}
+
+h1 {
+  position: relative;
+  margin-bottom: 3rem !important;
+}
+
+h1::after {
+  content: "";
+  width: 100%; /* Use 100% to span the entire width of the container */
+  height: 3px; /* Adjust the thickness of the underline */
+  max-width: 50px;
+  background-color: #FFFFFF; /* Set the underline color */
+  position: absolute;
+  bottom: -15px; /* Adjust this value to control the distance between text and underline */
+  left: 50%; /* Center the underline horizontally */
+  transform: translateX(-50%);
+}
+
+h2 {
+  position: relative;
+  margin-bottom: 3rem !important;
+}
+
+h2::after {
+  content: "";
+  width: 100%; /* Use 100% to span the entire width of the container */
+  height: 3px; /* Adjust the thickness of the underline */
+  max-width: 50px;
+  background-color: #FFFFFF; /* Set the underline color */
+  position: absolute;
+  bottom: -15px; /* Adjust this value to control the distance between text and underline */
+  left: 50%; /* Center the underline horizontally */
+  transform: translateX(-50%);
 }

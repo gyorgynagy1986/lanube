@@ -53,7 +53,6 @@
 .textContainer p {
   font-size: var(--ptext);
   line-height: var(--plineH);
-  margin-bottom: 3rem;
   max-width: var(--textMaxWidth);
   text-align: center;
 }

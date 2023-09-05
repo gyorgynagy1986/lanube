@@ -31,16 +31,14 @@ const JoinUs = ({ lang }) => {
   );
 
   return (
-    <div className={style.container}>
+    <div data-aos="fade-top" data-aos-offset="400" className={style.container}>
       <div className={style.containerText}>
         <h2 className={dosis.className}>{h2Logic}</h2>
-        <span className={style.h1Span}></span>
         {!lang ? text : textEn}
       </div>
       <div className={style.btnContainer}>
         <Button
           engColorPrefixJoin={lang ? true : false}
-          btEmpthy={true}
           name={btnLogic}
           url={btnUrl}
         />

@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items:center;
     flex-direction: column;
-    background-color: #FFFFFF;
+    background-color: #444444;
     width: var(--eventAndJoinUsContainerWidth);
     min-height: 358px;
     border-radius: 3rem;
@@ -13,7 +13,7 @@
 
 
 .containerText h2 {
-    color: black;
+    color: var(--mainTextColor);
     font-size: var(--h2title);
     line-height: var(--h2lineH);
     text-align: center;
@@ -21,7 +21,7 @@
 }
 
 .h1Span {
-    border: 2px solid #000000;
+    border: 2px solid var(--mainTextColor);
     width: 100%;
     max-width: var(--h1SpanMaxWidth);
     margin-top: 15px;
@@ -39,7 +39,7 @@
 .containerText p {
    font-size: 18px;
    line-height: 27px;
-   color: #000000;
+   color: var(--mainTextColor);
 }
 
 .btnContainer {

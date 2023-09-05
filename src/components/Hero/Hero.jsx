@@ -6,7 +6,6 @@ import { Mukta } from "next/font/google";
 import StickyNav from "../StickyNav/StickyNav";
 import Button from "../UI/Buttons/Button";
 import Image from "next/image";
-import ButtonGetInTouch from "../UI/Buttons/ButtonGetInTouch";
 import HeroCoverPhoto from "../../../public/assets/hero/hero.webp";
 import { heroData, heroDataEn } from "@/data/data";
 import { getHeroContent } from "@/data/language-handler";
@@ -43,7 +42,6 @@ const Hero = ({ reservation, lang }) => {
       </div>
       <div className={style.textContainer}>
         <h1>{h1Data}</h1>
-        <span className={style.h1Span}></span>
         <p>{pData}</p>
         <div className={style.btnContainer}>
           <Button
@@ -51,7 +49,7 @@ const Hero = ({ reservation, lang }) => {
             url={reservation}
             name={btnNameName}
           />
-          <ButtonGetInTouch url={btnNameSecUrl} name={btnNameSec} />
+          <Button btEmpthy={true} url={btnNameSecUrl} name={btnNameSec} />
         </div>
       </div>
     </header>

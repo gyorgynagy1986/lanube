@@ -42,10 +42,7 @@
 
 .btnContainer {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .h1Span {
@@ -62,7 +59,7 @@
 
 
 .textBoxContainer div {
-  font-size: 18px;
+  font-size: var(--ptext);
   line-height: 30px;
   display: flex;
 }
@@ -94,6 +91,10 @@
     min-height: 177px;
   }
 
+  .container {
+    margin-bottom: 5rem;
+  }
+
   .imageContainer img {
     min-height: 177px;
   }
@@ -112,5 +113,16 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
+  }
+
+  .btnContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btnContainer a {
+    display: inline-grid;
+
   }
 }

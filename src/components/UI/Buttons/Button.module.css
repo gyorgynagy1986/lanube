@@ -3,21 +3,19 @@
     background: var(--btn1Color);
     color: var(--btnTextColor);
     cursor: pointer;
-    position: relative;
     font-size: 18px;
-    line-height: 29.92px;
-    border: none;
     border-radius: 10px;
     transition: all .4ms ease-in;
     text-transform: uppercase;
     font-weight: 700;
+    border:  1px solid var(--btn1Color);
+
 }
 
 
 .buttonGetInTouch {
     padding: 10px 20px;
     font-size: 18px;
-    line-height: 29.92px;
     color: var(--btn1Color);
     border: none;
     text-transform: uppercase;
@@ -30,8 +28,8 @@
 
 .btEmpthy {
     background-color: transparent;
-    color:var(--btn1Color);
-     border: 2px solid var(--btn1Color);
+    color:var(--mainTextColor);
+    border:  1px solid #FFFFFF;
 }
 
 .differentTexMainColor  {
@@ -51,6 +49,7 @@
     padding: 0 !important; 
     background-color: transparent;
     font-size: 3.2rem;
+    border: none;
 }
 
 
@@ -65,3 +64,9 @@
 }
 
 }
+
+
+.buttonGetInTouchYellow {
+    color: var(--btnContact);
+}
+  

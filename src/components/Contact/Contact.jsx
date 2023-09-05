@@ -1,6 +1,5 @@
 import React from "react";
 import style from "./Contact.module.css";
-import { Dosis } from "next/font/google";
 import Button from "../UI/Buttons/Button";
 import ButtonGetInTouch from "../UI/Buttons/ButtonGetInTouch";
 import Image from "next/image";
@@ -34,7 +33,6 @@ const Contact = ({ reservation, lang }) => {
       </div>
       <div className={style.textContainer}>
         <h2>{h3EngLogic}</h2>
-        <span className={style.h1Span}></span>
         <div className={style.textBoxContainer}>
           <ContactItems lang={lang} />
         </div>
@@ -44,7 +42,8 @@ const Contact = ({ reservation, lang }) => {
             url={reservation}
             name={btnNameLogic}
           />
-          <ButtonGetInTouch
+          <Button
+            btEmpthy={true}
             url={!lang ? textContent.url : textContentEn.url}
             name={btnNameLogic2}
           />

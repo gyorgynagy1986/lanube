@@ -23,8 +23,6 @@ const Services = ({ lang }) => {
       </div>
       <div className={style.textContainer}>
         <h2>{titleLogic}</h2>
-        <span className={style.h1Span}></span>
-
         <ul className={ulStyle}>
           <li>{liLogic}</li>
           <li>{liLogic2}</li>

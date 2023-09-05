@@ -59,7 +59,7 @@ export const servicesData = {
 };
 
 export const servicesDataEn = {
-  h2: "Services ",
+  h2: "Our Services ",
   p: "Book a table with us and visit us any day of the week. Whether it is a romantic dinner or a meeting with friends or colleagues we are here to provide you with an unforgettable Spanish gastronomic experience.",
   p1: "Corporate events",
   p2: "get-togethers",
@@ -105,3 +105,20 @@ export const ourEventDataEn = {
 };
 
 //SECTION OUR EVENT END
+
+
+//*****************//
+
+//KAPCSOLAT 
+
+export const contactData = {
+  h3: "La Nube",
+  btn: "asztalfoglalás",
+  btn2: "kapcsolat",
+  address: "1075 Budapest, Kazinczy utca 3b.",
+  tel: "+ 36 30 317 69 65",
+  email: "hola@lanubebp.hu"
+};
+
+
+//KAPCSOLAT END

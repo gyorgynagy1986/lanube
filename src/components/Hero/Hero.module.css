@@ -67,10 +67,7 @@
 
 .btnContainer {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 /* TABLET max-width: 1150px */
@@ -93,6 +90,11 @@
     min-height: 177px;
   }
 
+  .btnContainer a {
+   width: 100%;
+   display: inline-grid;
+  }
+
   .imageContainer img {
     min-height: 177px;
   }
@@ -107,6 +109,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 
 

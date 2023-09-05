@@ -7,7 +7,6 @@ import { getStoryContent } from "@/data/language-handler";
 import ourStoryCoverPhoto from "../../../public/assets/sections/Our_story.png";
 
 const Story = ({ lang }) => {
-  
   const { pText, pText2, h2Text, btnUrl, btnName } = getStoryContent(
     lang,
     storyData,
@@ -28,7 +27,6 @@ const Story = ({ lang }) => {
 
       <div className={style.textContainer}>
         <h2>{h2Text}</h2>
-        <span className={style.h1Span}></span>
         <p>
           {pText}
           <br />
@@ -37,7 +35,6 @@ const Story = ({ lang }) => {
         </p>
         <Button
           engColorPrefixBlue={lang ? true : false}
-          btEmpthy={true}
           url={btnUrl}
           name={btnName}
         />
