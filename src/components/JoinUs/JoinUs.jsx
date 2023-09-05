@@ -19,7 +19,7 @@ const text = (
 const textEn = (
   <p className={style.h2}>
     If you would like to join to our team, please send your CV to{" "}
-    <span>hola@La Nubebp.hu</span> and we will contact you soon!
+    <span>hola@Lanubebp.hu</span> and we will contact you soon!
   </p>
 );
 
