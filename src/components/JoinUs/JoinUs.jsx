@@ -11,15 +11,15 @@ const dosis = Dosis({ subsets: ["latin"] });
 const text = (
   <p className={style.h2}>
     Ha Te is szívesen csatlakoznál csapatunkhoz, küldd el önéletrajzod az{" "}
-    <span>hola@lanubebp.hu</span> e-mail címre, és mi hamarosan felvesszük Veled
-    a kapcsolatot!
+    <span>hola@La Nubebp.hu</span> e-mail címre, és mi hamarosan felvesszük
+    Veled a kapcsolatot!
   </p>
 );
 
 const textEn = (
   <p className={style.h2}>
     If you would like to join to our team, please send your CV to{" "}
-    <span>hola@lanubebp.hu</span> and we will contact you soon!
+    <span>hola@La Nubebp.hu</span> and we will contact you soon!
   </p>
 );
 

@@ -6,8 +6,8 @@
     color: var(--titleColor);
     font-weight: 800;
     position: relative;
-    margin-bottom: 8rem !important;
-    margin-top: 10.5rem;
+    margin-top: var(--pageH1MarginTop) !important;
+    margin-bottom: var(--pageH1MarginBottom) !important;
 }
 
 

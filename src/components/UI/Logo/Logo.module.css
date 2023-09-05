@@ -1,37 +1,18 @@
 .logoMain {
-    left: var(--paddinLeftRightgGlobal);
+  left: var(--paddinLeftRightgGlobal);
+  top: 30px;
+  z-index: 0;
+  position: absolute;
+}
+
+@media only screen and (max-width: 1150px) {
+  .logoMain {
     top: 30px;
-    z-index: 0;
-    position: absolute;
- }
-
- .logoMain img {
-   
- }
-
-
- @media only screen and (max-width: 1150px) {
-    
-    .logoMain {
-        left: 4rem;
-        top: 30px;
-
-     }
-    
-    .logoMain img {
-      
-     }
   }
+}
 
-
-  @media only screen and (max-width: 681px) {
-    .logoMain {
-        top: 15px;
-        left: 2rem;        
-     }
-   
-    .logoMain img {
-      
-        
-     }
+@media only screen and (max-width: 681px) {
+  .logoMain {
+    top: 15px;
   }
+}

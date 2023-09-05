@@ -22,6 +22,9 @@
 .imageContainer {
     width: var(--imageContainerWidth);
     order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imageContainer img {
@@ -38,7 +41,6 @@
     justify-content: center;
     align-items: center;
 }
-
 
 
 .textContainer h1 {
@@ -121,9 +123,42 @@
 
 
 
-
-@media only screen and (max-width: 681px) {
+@media only screen and (max-width: 800px) {
    
+    .container {
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding-top: 5rem;
+       padding-bottom: 5rem;
+    }
 
+    .itemsContainer {
+        width:100%;
+    }
+
+    .imageContainer {
+       margin-top: 4rem;
+    }
+    
+    .btnContainer {
+        width: 100%;
+    }
+
+    .btnContainerItem {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 450px) { 
+    
+    .btnContainerItem a {
+        display: inline-grid;
+        width: 100% !important;
+    }
 
 }

@@ -29,7 +29,7 @@ const Contact = ({ reservation, lang }) => {
     <section id="opening" className={style.container}>
       <div className={style.imageContainer}>
         <div className={style.layer}></div>
-        <Image placeholder="blur" alt="lanube" src={mapPhoto} />
+        <Image placeholder="blur" alt="La Nube" src={mapPhoto} />
       </div>
       <div className={style.textContainer}>
         <h2>{h3EngLogic}</h2>

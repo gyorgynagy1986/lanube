@@ -136,7 +136,14 @@
     cursor: pointer;
     border-radius: 10px;
   }
-  
+
+  @media only screen and (max-width: 600px)  { 
+
+    .hoverProperty {
+      max-width: 100px;
+      max-height: 100px;
+    }
+  }
   .hoverProperty img {
     object-fit: cover;
     transition: all 0.3s ease-in-out;

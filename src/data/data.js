@@ -106,10 +106,9 @@ export const ourEventDataEn = {
 
 //SECTION OUR EVENT END
 
-
 //*****************//
 
-//KAPCSOLAT 
+//KAPCSOLAT
 
 export const contactData = {
   h3: "La Nube",
@@ -117,8 +116,16 @@ export const contactData = {
   btn2: "kapcsolat",
   address: "1075 Budapest, Kazinczy utca 3b.",
   tel: "+ 36 30 317 69 65",
-  email: "hola@lanubebp.hu"
+  email: "hola@La Nubebp.hu",
 };
 
+export const contactDataEn = {
+  h3: "La Nube",
+  btn: "Book a table now",
+  btn2: "Get in touch",
+  address: "1075 Budapest, Kazinczy utca 3b.",
+  tel: "+ 36 30 317 69 65",
+  email: "hola@Lanubebp.hu",
+};
 
 //KAPCSOLAT END

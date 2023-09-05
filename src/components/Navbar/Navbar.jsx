@@ -90,7 +90,7 @@ const Navbar = ({ NavFooter, nav, colorMobileMenu }) => {
       <nav className={navClass}>
         {NavFooter && (
           <Link className={linkClass} href="/">
-            <Image alt="lanube étterem logója" src={logo_footer} />
+            <Image alt="La Nube étterem logója" src={logo_footer} />
           </Link>
         )}
 
@@ -101,10 +101,10 @@ const Navbar = ({ NavFooter, nav, colorMobileMenu }) => {
 
           <div className={socialLinkContainerLogic}>
             <Link href={links.facebook}>
-              <Image src={facebook} alt="lanube facebbok oldala" />
+              <Image src={facebook} alt="La Nube facebbok oldala" />
             </Link>
             <Link href={links.instagram}>
-              <Image src={instagram} alt="lanube instagram oldala" />
+              <Image src={instagram} alt="La Nube instagram oldala" />
             </Link>
           </div>
 

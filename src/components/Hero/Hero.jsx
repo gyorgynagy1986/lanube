@@ -38,7 +38,7 @@ const Hero = ({ reservation, lang }) => {
     <header ref={menuRef} className={style.container}>
       {stickyNav && <StickyNav />}
       <div className={style.imageContainer}>
-        <Image placeholder="blur" alt="lanube" priority src={HeroCoverPhoto} />
+        <Image placeholder="blur" alt="La Nube" priority src={HeroCoverPhoto} />
       </div>
       <div className={style.textContainer}>
         <h1>{h1Data}</h1>

@@ -15,7 +15,7 @@ const Contact = () => {
     <>
       <section className={style.container}>
         <div className={style.imageContainer}>
-          <Image placeholder="blur" priority alt="lanube" src={mapPhoto} />
+          <Image placeholder="blur" priority alt="La Nube" src={mapPhoto} />
         </div>
         <div className={style.itemsContainer}>
           <div className={style.textContainer}>
@@ -29,7 +29,7 @@ const Contact = () => {
 
           <div className={style.btnContainer}>
             <div className={style.socialContainerItem}>
-              <Image alt="lanube étterem facebbok oldala" src={facebook} />
+              <Image alt="La Nube étterem facebbok oldala" src={facebook} />
               <ButtonGetInTouch
                 yellow={true}
                 url={links.facebook}
@@ -37,7 +37,7 @@ const Contact = () => {
               />
             </div>
             <div className={style.socialContainerItem}>
-              <Image alt="lanube étterem isntagram oldala" src={instagram} />
+              <Image alt="La Nube étterem isntagram oldala" src={instagram} />
               <ButtonGetInTouch
                 yellow={true}
                 url={links.instagram}

@@ -10,8 +10,8 @@ const dmSans = DM_Sans({
 });
 
 export const metadata = {
-  title: "lanube",
-  description: "lanube",
+  title: "La Nube",
+  description: "La Nube",
 };
 
 export default function RootLayout({ children }) {

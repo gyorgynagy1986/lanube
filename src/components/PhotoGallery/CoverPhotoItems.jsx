@@ -16,42 +16,42 @@ import photo7 from "../../../public/assets/gallery/covers/Gallery8.webp";
 const photoGalleryCoverPhots = [
   {
     id: 1,
-    alt: "lanube geléria cover photos",
+    alt: "La Nube geléria cover photos",
     url: photo,
   },
   {
     id: 2,
-    alt: "lanube geléria cover photos",
+    alt: "La Nube geléria cover photos",
     url: photo1,
   },
   {
     id: 3,
-    alt: "lanube geléria cover photos",
+    alt: "La Nube geléria cover photos",
     url: photo2,
   },
   {
     id: 4,
-    alt: "lanube geléria cover photos",
+    alt: "La Nube geléria cover photos",
     url: photo3,
   },
   {
     id: 5,
-    alt: "lanube geléria cover photos",
+    alt: "La Nube geléria cover photos",
     url: photo4,
   },
   {
     id: 6,
-    alt: "lanube geléria cover photos",
+    alt: "La Nube geléria cover photos",
     url: photo5,
   },
   {
     id: 7,
-    alt: "lanube geléria cover photos",
+    alt: "La Nube geléria cover photos",
     url: photo6,
   },
   {
     id: 8,
-    alt: "lanube geléria cover photos",
+    alt: "La Nube geléria cover photos",
     url: photo7,
   },
 ];

@@ -1,11 +1,34 @@
 .h1 {
     text-align: center;
-    margin-bottom: 8rem;
     font-size: max(28px,min(8vw,48px));
     line-height: max(35px,min(10vw,61px));
     letter-spacing: 0.02em;
     color: var(--titleColor);
     font-weight: 800;
+    position: relative;
+    margin-top: var(--pageH1MarginTop) !important;
+    margin-bottom: var(--pageH1MarginBottom) !important;
+}
+
+
+.h1::after {
+    content: "";
+    width: 100%; /* Use 100% to span the entire width of the container */
+    height: 3px; /* Adjust the thickness of the underline */
+    max-width: 50px;
+    background-color: #FFFFFF; /* Set the underline color */
+    position: absolute;
+    bottom: -15px; /* Adjust this value to control the distance between text and underline */
+    left: 50%; /* Center the underline horizontally */
+    transform: translateX(-50%);
+}
+
+
+.galleryContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
 }
 
 .container {
@@ -29,6 +52,7 @@
     max-width: 254px;
     max-height: 254px;
 }
+
 
 @media only screen and (max-width: 1150px) {
 

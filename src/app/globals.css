@@ -57,6 +57,13 @@
   --imgMaxW: 1000px;
   
   --h1SpanMaxWidth:50px;
+
+ /*PAGES*/
+
+  --pageH1MarginTop:10.5rem;
+  --pageH1MarginBottom:8.5rem;
+
+
   
   /*Event join US*/
   --eventContainerPadding: 5rem 8rem 5rem 8rem;
@@ -86,6 +93,8 @@
     --textMaxWidth: 100%;
     --textContainerPaddingTopBottom: 2rem;
     --h2lineH: 31.25px;
+    --pageH1MarginTop:4rem;
+    --pageH1MarginBottom:5rem;
   }
 }
 
