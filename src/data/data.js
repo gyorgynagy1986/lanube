@@ -108,7 +108,7 @@ export const ourEventDataEn = {
 
 //*****************//
 
-//KAPCSOLAT
+//CONTACT OLDAL
 
 export const contactData = {
   h3: "La Nube",
@@ -116,7 +116,7 @@ export const contactData = {
   btn2: "kapcsolat",
   address: "1075 Budapest, Kazinczy utca 3b.",
   tel: "+ 36 30 317 69 65",
-  email: "hola@La Nubebp.hu",
+  email: "hola@laubebp.hu",
 };
 
 export const contactDataEn = {
@@ -128,4 +128,22 @@ export const contactDataEn = {
   email: "hola@Lanubebp.hu",
 };
 
-//KAPCSOLAT END
+//CONTACT PAGE END
+
+//*****************//
+
+//CONTACT COMPONENTS
+
+export const contactComponentsData = {
+  h2: "Nyitvatartás",
+  btn: "asztalfoglalás",
+  btn2: "kapcsolat",
+  url: "/kapcsolat",
+};
+
+export const contactComponentsDataEn = {
+  h2: "Opening Hours",
+  btn: "Book a table now",
+  btn2: "Get in Touch",
+  url: "/en/contact",
+};

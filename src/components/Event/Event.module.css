@@ -2,6 +2,7 @@
     padding: var(--eventContainerPadding);
     display: flex;
     justify-content: space-between;
+    max-width: var(--maxWJoinUseAndEvent);
     align-items:center;
     flex-direction: column;
     background-color: #444444;
@@ -14,7 +15,7 @@
 
 .containerText h2 {
     color: var(--mianTextColor);
-    font-size: var(--h2title);
+    font-size: var(--h2titleJoinandEvent);
     line-height: var(--h2lineH);
     text-align: center;
 }

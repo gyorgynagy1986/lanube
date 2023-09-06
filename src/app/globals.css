@@ -27,10 +27,10 @@
   --titleColor4Hover: #ee0000;
   --languageHover: #aaaaaa;
 
-  --h1title: max(28px, min(3vw, 72px));
+  --h1title: max(28px, min(4vw, 62px));
   --h1lineH: max(35px, min(10vw, 54px));
 
-  --h2title: max(28px, min(2.5vw, 62px));
+  --h2title: max(28px, min(3vw, 52px));
   --h2lineH: 41.66px;
 
   --plineH: 20.83px;
@@ -68,6 +68,8 @@
   /*Event join US*/
   --eventContainerPadding: 5rem 8rem 5rem 8rem;
   --eventAndJoinUsContainerWidth:50%;
+  --maxWJoinUseAndEvent:950px;
+  --h2titleJoinandEvent: max(28px, min(3vw, 32px));
 }
 
 
@@ -108,7 +110,7 @@
     --ulLiTextLineH:30px;
     --ptext: max(17px, min(4vw, 19px));
     --plineH: 25.83px;
-
+    --h2titleJoinandEvent: max(32px, min(3vw, 48px));
   }
 }
 
@@ -202,4 +204,8 @@ h2::after {
   bottom: -15px; /* Adjust this value to control the distance between text and underline */
   left: 50%; /* Center the underline horizontally */
   transform: translateX(-50%);
+}
+
+.emailSpan {
+  text-decoration: underline;
 }

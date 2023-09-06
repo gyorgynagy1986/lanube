@@ -44,3 +44,12 @@ export const getOurEventContent = (lang, ourEventData, ourEventDataEn) => {
     urlLogic: !lang ? ourEventData.url : ourEventDataEn.url,
   };
 };
+
+
+export const getOurcontact = (lang, contactComponentsData, contactComponentsDataEn) => {
+  return {
+     title : !lang ? contactComponentsData.h2 : contactComponentsDataEn.h2,
+     btn : !lang ? contactComponentsData.btn : contactComponentsDataEn.btn,
+     btn2 : !lang ? contactComponentsData.btn2 : contactComponentsDataEn.btn2,
+  };
+};
