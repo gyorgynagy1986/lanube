@@ -209,3 +209,27 @@ h2::after {
 .emailSpan {
   text-decoration: underline;
 }
+
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.zoomed {
+  cursor: zoom-in;
+}
+
+.zoomed-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:100%; /* A nagyított kép mérete */
+  height: 100%; /* A nagyított kép mérete */
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+  border: 1px solid #650707; /* opcionális: keret a nagyított kép körül */
+}
