@@ -7,13 +7,14 @@ import style from "./page.module.css";
 
 
 const Menu = () => {
-  const handleClickFood = () => {
-    window.location.href = "/etlap.pdf";
-  };
 
-  const handleClickDrinks = () => {
-    window.location.href = "/itallap.pdf";
-  };
+    const handleClickFood = () => {
+      window.open("/etlap.pdf", "_blank")
+    };
+  
+    const handleClickDrinks = () => {
+      window.open("/itallap.pdf", "_blank");
+    };
 
   return (
     <>

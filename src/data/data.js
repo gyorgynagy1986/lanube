@@ -125,7 +125,7 @@ export const contactDataEn = {
   btn2: "Get in touch",
   address: "1075 Budapest, Kazinczy utca 3b.",
   tel: "+ 36 30 317 69 65",
-  email: "hola@Lanubebp.hu",
+  email: "hola@lanubebp.hu",
 };
 
 //CONTACT PAGE END
