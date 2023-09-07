@@ -1,10 +1,13 @@
+"use client"
+
 import style from "./Story.module.css";
 import Button from "../UI/Buttons/Button";
 import Image from "next/image";
 import { storyData, storyDataEn } from "@/data/data";
 import { getStoryContent } from "@/data/language-handler";
+import { useParallax } from "react-scroll-parallax";
 
-import ourStoryCoverPhoto from "../../../public/assets/sections/Our_story.png";
+import ourStoryCoverPhoto from "../../../public/assets/sections/Our_story.webp";
 
 const Story = ({ lang }) => {
   const { pText, pText2, h2Text, btnUrl, btnName } = getStoryContent(
@@ -13,10 +16,16 @@ const Story = ({ lang }) => {
     storyDataEn
   );
 
+  const parallax = useParallax({
+    opacity	: [-1, 7],
+    speed:-3
+
+  });
+
+
   return (
-    <section className={style.container}>
-      <div className={style.imageContainer}>
-        <div className={style.layer}></div>
+    <section ref={parallax.ref} className={style.container}>
+      <div  className={style.imageContainer}>
         <Image
           placeholder="blur"
           priority

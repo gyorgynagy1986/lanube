@@ -34,22 +34,30 @@ const Hero = ({ reservation, lang }) => {
   const { h1Data, pData, btnNameName, btnNameSec, btnNameSecUrl } =
     getHeroContent(lang, heroData, heroDataEn);
 
+
   return (
-    <header ref={menuRef} className={style.container}>
-      {stickyNav && <StickyNav />}
-      <div className={style.imageContainer}>
-        <Image placeholder="blur" alt="La Nube" priority src={HeroCoverPhoto} />
-      </div>
-      <div className={style.textContainer}>
-        <h1>{h1Data}</h1>
-        <p>{pData}</p>
-        <div className={style.btnContainer}>
-          <Button
-            className={mukta.className}
-            url={reservation}
-            name={btnNameName}
+    <header ref={menuRef}>
+      <div className={style.container}>
+        {stickyNav && <StickyNav />}
+        <div className={style.imageContainer}>
+          <Image
+            placeholder="blur"
+            alt="La Nube"
+            priority
+            src={HeroCoverPhoto}
           />
-          <Button btEmpthy={true} url={btnNameSecUrl} name={btnNameSec} />
+        </div>
+        <div className={style.textContainer}>
+          <h1>{h1Data}</h1>
+          <p>{pData}</p>
+          <div className={style.btnContainer}>
+            <Button
+              className={mukta.className}
+              url={reservation}
+              name={btnNameName}
+            />
+            <Button btEmpthy={true} url={btnNameSecUrl} name={btnNameSec} />
+          </div>
         </div>
       </div>
     </header>

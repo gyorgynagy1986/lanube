@@ -97,6 +97,8 @@
     --h2lineH: 31.25px;
     --pageH1MarginTop:4rem;
     --pageH1MarginBottom:5rem;
+    --eventContainerPadding: 4rem 2rem 4rem 2rem;
+
   }
 }
 

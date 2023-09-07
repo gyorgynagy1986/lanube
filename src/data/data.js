@@ -1,7 +1,7 @@
 export const links = {
-  facebook: "",
-  instagram: "",
-  reservation: "",
+  facebook: "https://www.facebook.com/lanubetapas/",
+  instagram: "https://www.instagram.com/lanubetapas/",
+  reservation: "https://reservours.com/lanubetapas/tablereservation?s=google",
 };
 
 //SECTION HERO
@@ -54,16 +54,16 @@ export const servicesData = {
   h2: "Szolgáltatások ",
   p: "Foglalj asztalt és látogass el hozzánk a hét bármely napján. Legyen szó egy romantikus vacsoráról, egy baráti vagy céges találkozóról, mi itt vagyunk, hogy egy felejthetetlen spanyol gasztronómiai élményt nyújtsunk.",
   p1: "Céges rendezvények",
-  p2: "baráti összejövetelek",
-  p3: "születésnapok",
+  p2: "Baráti összejövetelek",
+  p3: "Születésnapok",
 };
 
 export const servicesDataEn = {
   h2: "Our Services ",
   p: "Book a table with us and visit us any day of the week. Whether it is a romantic dinner or a meeting with friends or colleagues we are here to provide you with an unforgettable Spanish gastronomic experience.",
   p1: "Corporate events",
-  p2: "get-togethers",
-  p3: "birthday celebrations",
+  p2: "Get-togethers",
+  p3: "Birthday celebrations",
 };
 
 //SECTION SERVICES END

@@ -2,7 +2,7 @@ import style from "./page.module.css";
 import Image from "next/image";
 import Button from "@/components/UI/Buttons/Button";
 import ButtonGetInTouch from "@/components/UI/Buttons/ButtonGetInTouch";
-import mapPhoto from "../../../../public/assets/sections/map_contact.png";
+import mapPhoto from "../../../../public/assets/sections/map_contact.webp";
 import facebook from "../../../../public/assets/social/facebook.svg";
 import instagram from "../../../../public/assets/social/instagram.svg";
 import {links} from '@/data/data'
@@ -46,7 +46,6 @@ const Contact = () => {
             </div>
             <div className={style.btnContainerItem}>
               <Button url={links.reservation} name={contactDataEn.btn} />
-              <Button btEmpthy={true} url={links.reservation} name={contactDataEn.btn2} />
             </div>
           </div>
         </div>

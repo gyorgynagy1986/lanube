@@ -11,7 +11,7 @@ const Wrapper = ({children}) => {
 
   useEffect(() => {
     AOS.init({
-      duration: 1200,
+      duration: 1000,
     });
   }, []);
 

@@ -15,11 +15,12 @@ const Event = ({ lang }) => {
   );
 
   return (
-    <div
-      data-aos="fade-top"  data-aos-offset="400"
-      className={style.container}
-    >
-      <div className={style.containerText}>
+    <div data-aos="fade-up" data-aos-offset="100" className={style.container}>
+      <div
+        data-aos="fade"
+        data-aos-offset="150"
+        className={style.containerText}
+      >
         <h2>{h2Logic}</h2>
         <p className={mukta.className}>{pLogic}</p>
       </div>
