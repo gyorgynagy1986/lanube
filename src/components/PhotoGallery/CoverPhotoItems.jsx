@@ -4,14 +4,19 @@ import React from "react";
 import Image from "next/image";
 import style from "./PhotoGallery.module.css";
 
-import photo from "../../../public/assets/gallery/covers/Gallery1.webp";
-import photo1 from "../../../public/assets/gallery/covers/Gallery2.webp";
-import photo2 from "../../../public/assets/gallery/covers/Gallery3.webp";
-import photo3 from "../../../public/assets/gallery/covers/Gallery4.webp";
-import photo4 from "../../../public/assets/gallery/covers/Gallery5.webp";
-import photo5 from "../../../public/assets/gallery/covers/Gallery6.webp";
-import photo6 from "../../../public/assets/gallery/covers/Gallery7.webp";
-import photo7 from "../../../public/assets/gallery/covers/Gallery8.webp";
+import photo from "../../../public/assets/gallery/covers/Gallery1.jpg";
+import photo1 from "../../../public/assets/gallery/covers/Gallery2.jpg";
+import photo2 from "../../../public/assets/gallery/covers/Gallery3.jpg";
+import photo3 from "../../../public/assets/gallery/covers/Gallery4.jpg";
+import photo4 from "../../../public/assets/gallery/covers/Gallery5.jpg";
+import photo5 from "../../../public/assets/gallery/covers/Gallery6.jpg";
+import photo6 from "../../../public/assets/gallery/covers/Gallery7.jpg";
+import photo7 from "../../../public/assets/gallery/covers/Gallery8.jpg";
+import photo8 from "../../../public/assets/gallery/covers/Gallery9.jpg";
+import photo9 from "../../../public/assets/gallery/covers/Gallery10.jpg";
+import photo10 from "../../../public/assets/gallery/covers/Gallery11.jpg";
+import photo11 from "../../../public/assets/gallery/covers/Gallery12.jpg";
+import photo12 from "../../../public/assets/gallery/covers/Gallery13.jpg";
 
 const photoGalleryCoverPhots = [
   {
@@ -53,6 +58,31 @@ const photoGalleryCoverPhots = [
     id: 8,
     alt: "La Nube geléria cover photos",
     url: photo7,
+  },
+  {
+    id: 9,
+    alt: "La Nube geléria cover photos",
+    url: photo8,
+  },
+  {
+    id: 10,
+    alt: "La Nube geléria cover photos",
+    url: photo9,
+  },
+  {
+    id: 11,
+    alt: "La Nube geléria cover photos",
+    url: photo10,
+  },
+  {
+    id: 12,
+    alt: "La Nube geléria cover photos",
+    url: photo11,
+  },
+  {
+    id: 13,
+    alt: "La Nube geléria cover photos",
+    url: photo12,
   },
 ];
 
