@@ -1,88 +1,90 @@
-.button  {
-    padding: 10px 20px;
-    background: var(--btn1Color);
-    color: var(--btnTextColor);
-    cursor: pointer;
-    font-size: 18px;
-    border-radius: 10px;
-    transition: all .4ms ease-in;
-    text-transform: uppercase;
-    font-weight: 700;
-    border:  1px solid var(--btn1Color);
-    transition: all 150ms ease;
+.button {
+  padding: 10px 20px;
+  background: var(--btn1Color);
+  color: var(--btnTextColor);
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: all 0.4ms ease-in;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 1px solid var(--btn1Color);
+  transition: all 150ms ease;
 }
 
 .button:hover {
-    background: #B65E02;
-    border: 1px solid #B65E02;
-
+  background: #bc0000;
+  border: 1px solid #bc0000;
 }
-
 
 .buttonGetInTouch {
-    position: relative;
-    padding: 10px 20px;
-    font-size: 18px;
-    color: #ED8A23;
-    border: none;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: all .1s ease-in-out;
-    background: none;
-    font-weight: 700;
-    text-decoration:none;
-    transition:  textDecoration 150ms ease;
-
+  position: relative;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #ed8a23;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  background: none;
+  font-weight: 700;
+  text-decoration: none;
+  transition: textDecoration 150ms ease;
 }
-
 
 .buttonGetInTouch::after {
-    content: "";
-    position: absolute;
-    bottom: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 2px;
-    width: 0%;
-    background-color:#ED8A23;
+  content: "";
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 2px;
+  width: 0%;
+  background-color: #ed8a23;
 
-    transition: all 160ms ease-in-out;
+  transition: all 160ms ease-in-out;
 }
 
-
 .buttonGetInTouch:hover::after {
-    width: 70%;
-    color: #FFA800;
+  width: 70%;
+  color: #ffa800;
 }
 
 .btEmpthy {
-    background-color: transparent;
-    color:var(--mainTextColor);
-    border:  1px solid #FFFFFF;
+  background-color: transparent;
+  color: var(--mainTextColor);
+  border: 1px solid #ffffff;
 }
 
 .btEmpthy:hover {
-    background-color:#FFFFFF;
-    color:black;
-    border:  1px solid #FFFFFF;
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #ffffff;
 }
 
-.differentTexMainColor  {
-    padding: 10px 20px;
-    background: var(--btn1Color);
-    color: var(--btnTextColor);
-    cursor: pointer;
-    position: relative;
-    font-size: 20px;
-    line-height: auto;
-    border: none;
-    border-radius: 10px;
-    transition: all .4ms ease-in;
+.differentTexMainColor {
+  padding: 10px 20px;
+  background: var(--btn1Color);
+  color: var(--btnTextColor);
+  cursor: pointer;
+  position: relative;
+  font-size: 20px;
+  line-height: auto;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.4ms ease-in;
 }
 
 .btnFooter {
-    padding: 0 !important; 
+  padding: 0 !important;
+  background-color: transparent;
+  font-size: 3.2rem;
+  border: none;
+}
+
+.btnFooter:hover {
     background-color: transparent;
     font-size: 3.2rem;
     border: none;
-}
+  }
+  
