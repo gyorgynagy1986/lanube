@@ -17,7 +17,7 @@
     align-items: center;  
     padding-top: 25vh; 
     padding-bottom: 10vh; 
-    background-color: var(--mobileMenuColor);
+    background-color: var(--mainTextColor);
 }
 
 .navigation {
@@ -39,17 +39,36 @@
     font-size: 20px;
     line-height: 23px;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--navTextColor);
 }
 
 
 
 .mobileMenuSocialContainer {
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 4rem;
-   margin-bottom: 4rem;
+    position: relative;
+    gap: 2rem;
+    margin-bottom: 4rem;
 }
+
+
+.mobileMenuSocialContainer a  {
+    width: 30px;
+    height: 30px; 
+    position: relative;
+}
+
+.mobileMenuSocialContainer a img {
+    width: 30px;
+    height: 30px; 
+
+}
+
+ .mobileMenuSocialContainer a:nth-child(2) {
+     top: 1.8px !important;
+  }
 
 
 .mobileMenuUl a:not(:last-child) {
@@ -78,8 +97,26 @@
 }
 
 .active {
-    color: var(--titleColor) !important;
+    color: var(--btn1Color) !important;
     font-size: 20rem;
 }
 
+.socialNavFooter img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.socialNavFooter a img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.social img:nth-child(2) {
+   top: 1.8px;
+}
   

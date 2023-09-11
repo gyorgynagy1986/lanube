@@ -6,7 +6,6 @@ import { Mukta } from "next/font/google";
 import StickyNav from "../StickyNav/StickyNav";
 import Button from "../UI/Buttons/Button";
 import Image from "next/image";
-import ButtonGetInTouch from "../UI/Buttons/ButtonGetInTouch";
 import HeroCoverPhoto from "../../../public/assets/hero/hero.webp";
 import { heroData, heroDataEn } from "@/data/data";
 import { getHeroContent } from "@/data/language-handler";
@@ -35,23 +34,30 @@ const Hero = ({ reservation, lang }) => {
   const { h1Data, pData, btnNameName, btnNameSec, btnNameSecUrl } =
     getHeroContent(lang, heroData, heroDataEn);
 
+
   return (
-    <header ref={menuRef} className={style.container}>
-      {stickyNav && <StickyNav />}
-      <div className={style.imageContainer}>
-        <Image placeholder="blur" alt="lanube" priority src={HeroCoverPhoto} />
-      </div>
-      <div className={style.textContainer}>
-        <h1>{h1Data}</h1>
-        <span className={style.h1Span}></span>
-        <p>{pData}</p>
-        <div className={style.btnContainer}>
-          <Button
-            className={mukta.className}
-            url={reservation}
-            name={btnNameName}
+    <header ref={menuRef}>
+      <div className={style.container}>
+        {stickyNav && <StickyNav />}
+        <div className={style.imageContainer}>
+          <Image
+            placeholder="blur"
+            alt="La Nube"
+            priority
+            src={HeroCoverPhoto}
           />
-          <ButtonGetInTouch url={btnNameSecUrl} name={btnNameSec} />
+        </div>
+        <div className={style.textContainer}>
+          <h1>La Nube<br /> <span> Tapas & Vino</span></h1>
+          <p>{pData}</p>
+          <div className={style.btnContainer}>
+            <Button
+              className={mukta.className}
+              url={reservation}
+              name={btnNameName}
+            />
+            <Button btEmpthy={true} url={btnNameSecUrl} name={btnNameSec} />
+          </div>
         </div>
       </div>
     </header>

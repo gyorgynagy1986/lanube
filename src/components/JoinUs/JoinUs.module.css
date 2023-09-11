@@ -1,10 +1,11 @@
 .container {
     padding: var(--eventContainerPadding);
     display: flex;
+    max-width: var(--maxWJoinUseAndEvent);
     justify-content: space-between;
     align-items:center;
     flex-direction: column;
-    background-color: #FFFFFF;
+    background-color: #444444;
     width: var(--eventAndJoinUsContainerWidth);
     min-height: 358px;
     border-radius: 3rem;
@@ -13,15 +14,31 @@
 
 
 .containerText h2 {
-    color: black;
-    font-size: var(--h2title);
+    color: var(--mainTextColor);
+    font-size: var(--h2titleJoinandEvent);
     line-height: var(--h2lineH);
     text-align: center;
-    max-width: 150px;
+    max-width: 165px;
+}
+
+@media only screen and (min-width: 1600px) {
+    .containerText h2 { 
+        max-width: 200px;
+
+    }
+
+}
+
+@media only screen and (min-width: 1900px) {
+    .containerText h2 { 
+        max-width: 250px;
+
+    }
+
 }
 
 .h1Span {
-    border: 2px solid #000000;
+    border: 2px solid var(--mainTextColor);
     width: 100%;
     max-width: var(--h1SpanMaxWidth);
     margin-top: 15px;
@@ -39,7 +56,7 @@
 .containerText p {
    font-size: 18px;
    line-height: 27px;
-   color: #000000;
+   color: var(--mainTextColor);
 }
 
 .btnContainer {

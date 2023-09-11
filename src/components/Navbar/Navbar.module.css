@@ -133,6 +133,7 @@
 @media only screen and (max-width: 1150px) {
 
     
+    
 
     .ulHide {
         display: none;  
@@ -182,7 +183,6 @@
 @media only screen and (max-width: 681px) {
 
 
-
     .socialNav {
         display: none;
     }
@@ -215,6 +215,25 @@
     }
     .socialNavFooter img {
         margin: 0 !important;
+    }
+
+    .socialNavFooter a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        position: relative;
+    }
+
+    .socialNavFooter a img {
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .socialNavFooter a:nth-child(2) {
+       top: 1.8px;
     }
    
     .socialNavFooter {

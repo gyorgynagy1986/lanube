@@ -4,10 +4,10 @@
     width: 100%;
     top: 0;
     left: 0;
-    padding-top:5%;
-    padding-bottom: 5%;;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-top:2%;
+    padding-bottom: 2%;;
+    padding-left: 2%;
+    padding-right: 2%;
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -37,13 +37,14 @@
     width: 90%;
     height: 100%;
     max-height: 100%;
+    max-width: 1200px;
     padding-top: 5rem;
     padding-bottom: 5rem;
     z-index: 9999999999;
     display: flex;
     justify-content: center;
-    background: #FFFFFF;
-    border: 4px solid var(--titleColor);
+    background: #0c0c0c;
+    border: 1px solid var(--titleColor);
 }
 
 .containerImage img {
@@ -78,7 +79,7 @@
 
 .photoCounter {
     font-size: 20px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 @media only screen and (max-width: 1366px)  {
@@ -133,8 +134,16 @@
     overflow: hidden;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
+    border-radius: 10px;
   }
-  
+
+  @media only screen and (max-width: 600px)  { 
+
+    .hoverProperty {
+      max-width: 100px;
+      max-height: 100px;
+    }
+  }
   .hoverProperty img {
     object-fit: cover;
     transition: all 0.3s ease-in-out;
@@ -142,7 +151,7 @@
   
   .hoverProperty:hover img {
     transform: scale(1.2);
-    filter: blur(1px);
+    filter: blur(0px);
   }
   
   .hoverProperty::before {
@@ -157,7 +166,6 @@
   }
   
   .hoverProperty:hover::before {
-    content: url(../../../public/logo_small.png);
     opacity: 1;
    
   }

@@ -1,14 +1,14 @@
 export const links = {
-  facebook: "",
-  instagram: "",
-  reservation: "",
+  facebook: "https://www.facebook.com/lanubetapas/",
+  instagram: "https://www.instagram.com/lanubetapas/",
+  reservation: "https://reservours.com/lanubetapas/tablereservation?s=google",
 };
 
 //SECTION HERO
 
 export const heroData = {
-  h1: "La Nube",
-  p: "Egy ízletes sült csirkére  vagy sült kacsára vágysz fűszeres burgonyával? A legjobb helyen vagy!",
+  h1: "La Nube Tapas & Vino",
+  p: "Üdvözlünk a spanyol konyha izgalmas világában, igazi mediterrán hangulattal és rengeteg finomsággal!",
   btn: "asztalfoglalás",
   btn2: "kapcsolat",
   url: "/kapcsolat",
@@ -16,7 +16,7 @@ export const heroData = {
 
 export const heroDataEn = {
   h1: "La Nube",
-  p: "Would you like to try a delicious grilled chicken or grilled duck with potatoes? You are at the best place!",
+  p: "Welcome to the exciting world of Spanish cuisine, with a real Mediterranean atmosphere and plenty of delicacies!",
   btn: "Book a table now",
   btn2: "Get in touch",
   url: "/en/contact",
@@ -30,16 +30,16 @@ export const heroDataEn = {
 
 export const storyData = {
   h4: "Rólunk",
-  p: "Ha egy ínycsiklandó sült csirkére vagy sült kacsára vágysz, akkor megtaláltad az ideális helyet Kazinczy utcai éttermünkben. A Fuegoban a csirkét és a kacsát titkos recept alapján fűszerezzük, tetejükön ropogós és aranyszínű a bőr, ami szaftos és omlós hússal párosul.",
-  p1: "Fűszeres burgonyánk tökéletes kísérőül szolgál, íze és állaga harmonizál a sült hússal. Ne hagyd ki különleges, házi készítésű szószainkat sem! A hét minden napján a legjobb minőséggel és ízekkel várunk!",
+  p: "A főváros budai oldalán található tapas bárunkba a dél-spanyol tulajdonosok különleges gondossággal válogatott alapanyagai közvetlenül szülőhazájukból érkeznek.",
+  p1: "Olyan klasszikusokat is kóstolhatsz nálunk, mint a tortilla de patatas, a padrón paprika vagy a churros, de ha elmerülnél az új ízek tengerében, válassz akár egy grillezett polipot vagy andalúz tintahalat, melyeket különleges gondossággal és szakértelemmel készítünk el, hogy igazán autentikus ízélményt nyújtsunk. Itallapunkon pedig a legfinomabb spanyol borok és cavák sorakoznak, így minden fogás mellé megtalálod a tökéletes kiegészítést. Gyere és élvezd tapas kínálatunkat a Gárdonyi térhez közel, egy csendes kis utcában, akár a teraszunkon is!",
   btn: "étlapunk",
   url: "/etlap",
 };
 
 export const storyDataEn = {
   h4: "About us",
-  p: "If you would try a mouth-watering grilled chicken or grilled duck, you have found the ideal place in our Kazinczy Street restaurant in the 7th district of Budapest. At Fuego, both the chicken and the duck are marinated according to a secret recipe, with crispy and golden skin on top, which is combined with tasty and crumbly meat.",
-  p1: "Our spicy potatoes serve as a perfect accompaniment, their taste and texture harmonize with the roast meat. Don't miss out our special homemade sauces either! We are waiting for you with the best quality and flavors every day of the week!",
+  p: "Located on the Buda side of the capital, our tapas bar welcomes you with specially selected ingredients of the southern Spanish owners, arriving directly from their homeland with exceptional care.",
+  p1: "You can also try classics with us, such as tortilla de patatas, padrón peppers or churros, however, if you would like to immerse yourself in the sea of new flavors, you can even choose a grilled octopus or andalusian style calamari, which we prepare with special care and expertise to provide the most authentic taste experience. On our drink menu, you will also find the finest Spanish wines and cavas, so you can discover the perfect complement to each course. Come and enjoy our selection of tapas in a small and quiet street close to Gárdonyi Square, even on our terrace!",
   btn: "see the menu",
   url: "/en/menu",
 };
@@ -52,18 +52,18 @@ export const storyDataEn = {
 
 export const servicesData = {
   h2: "Szolgáltatások ",
-  p: "Örömmel várjuk asztalfoglalásod éttermünkben, ha céges rendezvényt szervezel, vagy megünnepelnél egy különleges pillanatot családoddal vagy barátaiddal. Mi biztosítjuk a finom ételeket és a jó hangulatot!",
+  p: "Foglalj asztalt és látogass el hozzánk a hét bármely napján! Legyen szó romantikus vacsoráról, baráti vagy céges találkozóról, mi itt vagyunk, hogy egy felejthetetlen spanyol gasztronómiai élményt nyújtsunk.",
   p1: "Céges rendezvények",
-  p2: "baráti összejövetelek",
-  p3: "születésnapok",
+  p2: "Baráti összejövetelek",
+  p3: "Születésnapok",
 };
 
 export const servicesDataEn = {
-  h2: "Services ",
-  p: "We are looking forward to your table reservation in our restaurant, whether it is for a corporate event or celebrating a special moment with your family or friends. We guarantee the delicious food and a great atmosphere!",
+  h2: "Our Services ",
+  p: "Make a reservation and visit us any day of the week! Whether it is a romantic dinner or a meeting with friends or colleagues, we are here to provide you with an unforgettable Spanish gastronomic experience.",
   p1: "Corporate events",
-  p2: "get-togethers",
-  p3: "birthday celebrations",
+  p2: "Get-togethers",
+  p3: "Birthday celebrations",
 };
 
 //SECTION SERVICES END
@@ -91,17 +91,59 @@ export const JoinUsDataEn = {
 //SECTION OUR EVENT END
 
 export const ourEventData = {
-  h2: "Szeretnél rendezvényt tartani a lanube-ban?",
-  p: "Hívj minket vagy írj nekünk, ha rendezvényt tartanál nálunk!",
+  h2: "Szeretnél rendezvényt tartani a La Nube-ban? ",
+  p: "Hívj minket vagy küldj üzenetet, ha rendezvényt szeretnél tartani nálunk, mi pedig örömmel állunk rendelkezésedre!",
   btn: "kapcsolat",
   url: "/kapcsolat",
 };
 
 export const ourEventDataEn = {
-  h2: "Want to have an event at lanube?",
-  p: "Call or drop us a message if you would like to host an event!",
+  h2: "Want to have an event at La Nube?",
+  p: "Call us or drop us a message if you would like to hold an event with us, and we are happy to be at your disposal!",
   btn: "Get in touch",
   url: "/en/contact",
 };
 
 //SECTION OUR EVENT END
+
+//*****************//
+
+//CONTACT OLDAL
+
+export const contactData = {
+  h3: "La Nube",
+  btn: "asztalfoglalás",
+  btn2: "kapcsolat",
+  address: "1114 Budapest, Bartók Béla út 41.",
+  tel: " +36 20 439 5101",
+  email: "hola@laubebp.hu",
+};
+
+export const contactDataEn = {
+  h3: "La Nube",
+  btn: "Book a table now",
+  btn2: "Get in touch",
+  address: "1114 Budapest, Bartók Béla út 41.",
+  tel: " +36 20 439 5101",
+  email: "hola@lanubebp.hu",
+};
+
+//CONTACT PAGE END
+
+//*****************//
+
+//CONTACT COMPONENTS
+
+export const contactComponentsData = {
+  h2: "Nyitvatartás",
+  btn: "asztalfoglalás",
+  btn2: "kapcsolat",
+  url: "/kapcsolat",
+};
+
+export const contactComponentsDataEn = {
+  h2: "Opening Hours",
+  btn: "Book a table now",
+  btn2: "Get in Touch",
+  url: "/en/contact",
+};

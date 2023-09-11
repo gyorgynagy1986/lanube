@@ -1,29 +1,50 @@
 import React from 'react'
+import { DM_Mono } from "next/font/google";
+
+
+const mukta =  DM_Mono({ weight: "400", subsets: ["latin"] });
 
 
 const textContent = {
-  day: 'Hétfő - Vasárnap',
-  time: '12:00 - 23:30'
+  day: 'Hétfő - Péntek :',
+  time: '17:00 - 23:00',
+  day2: 'Szombat - Vasárnap :',
+  time2: '12:00 - 23:00',
+ // day3: 'Vasárnap',
+//  time3: 'ZÁRVA'
 }
 
 const textContentEn = {
-  day: 'Monday - Sunday',
-  time: '12:00 - 23:30'
+  day: 'Monday - Friday :',
+  time: '17:00 - 23:00',
+  day2: 'Saturday - Sunday :',
+  time2: '12:00 - 23:00',
+ // day3: 'Sunday',
+ // time3: 'CLOSED'
 }
 
 const ContactItems = ({lang}) => {
 
-  const textLangLogic = !lang ? textContent.day : textContentEn.day;
-  const textLangLogic2 = !lang ? textContent.time : textContentEn.time;
+  const weekdays = !lang ? textContent.day : textContentEn.day;
+  const weekdays2 = !lang ? textContent.time : textContentEn.time;
+
+  const weekend = !lang ? textContent.day2 : textContentEn.day2;
+  const weekend2 = !lang ? textContent.time2 : textContentEn.time2;
+
+  //const dayOff = !lang ? textContent.day3 : textContentEn.day3;
+  //const dayOff2 = !lang ? textContent.time3 : textContentEn.time3;
 
 
   return (
     <>
-        <div>
-            <p>{textLangLogic}</p>
-            <p>{textLangLogic2}</p>
+         <div>
+            <p >{weekdays}</p>
+            <p className={mukta.className} >{weekdays2}</p>
          </div>
-         
+         <div>
+            <p >{weekend}</p>
+            <p className={mukta.className} >{weekend2}</p>
+         </div>
     </>
   )
 }

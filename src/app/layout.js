@@ -6,13 +6,12 @@ import Logo from "@/components/UI/Logo/Logo";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
-  weight: ["400", "500","700"],
+  weight: ["400", "500", "700"],
 });
 
 export const metadata = {
-  title: "lanube",
-  description:
-    "lanube",
+  title: "Tapas & Vino — La Nube",
+  description: "Mediterrán ételek széles választékával és autentikus spanyol hangulattal várunk Budapesten a Bartók Béla úti éttermünkben.  ",
 };
 
 export default function RootLayout({ children }) {

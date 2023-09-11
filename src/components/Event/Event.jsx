@@ -15,20 +15,23 @@ const Event = ({ lang }) => {
   );
 
   return (
-    <div className={style.container}>
-      <div className={style.containerText}>
+    <div data-aos="fade-up" data-aos-offset="100" className={style.container}>
+      <div
+        data-aos="fade"
+        data-aos-offset="150"
+        className={style.containerText}
+      >
         <h2>{h2Logic}</h2>
-        <span className={style.h1Span}></span>
         <p className={mukta.className}>{pLogic}</p>
-        </div>
-        <div>
+      </div>
+      <div>
+        <div className={style.btnContainer}>
           <Button
             engColorPrefixBlueContact={lang ? true : false}
-            btEmpthy={true}
             name={buttonNameLogic}
             url={urlLogic}
           />
-      
+        </div>
       </div>
     </div>
   );

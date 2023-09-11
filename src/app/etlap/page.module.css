@@ -1,11 +1,12 @@
 .h1 {
     text-align: center;
-    margin-bottom: 8rem;
     font-size: max(28px,min(8vw,48px));
     line-height: max(35px,min(10vw,61px));
     letter-spacing: 0.02em;
     color: var(--titleColor);
     font-weight: 800;
+    margin-top: var(--pageH1MarginTop) !important;
+    margin-bottom: var(--pageH1MarginBottom) !important;
 }
 
 .container {
@@ -47,3 +48,4 @@
      }
 
 }
+

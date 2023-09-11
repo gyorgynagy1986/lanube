@@ -1,67 +1,90 @@
-.button  {
-    padding: 10px 20px;
-    background: var(--btn1Color);
-    color: var(--btnTextColor);
-    cursor: pointer;
-    position: relative;
-    font-size: 18px;
-    line-height: 29.92px;
-    border: none;
-    border-radius: 10px;
-    transition: all .4ms ease-in;
-    text-transform: uppercase;
-    font-weight: 700;
+.button {
+  padding: 10px 20px;
+  background: var(--btn1Color);
+  color: var(--btnTextColor);
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: all 0.4ms ease-in;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 1px solid var(--btn1Color);
+  transition: all 150ms ease;
 }
 
+.button:hover {
+  background: #bc0000;
+  border: 1px solid #bc0000;
+}
 
 .buttonGetInTouch {
-    padding: 10px 20px;
-    font-size: 18px;
-    line-height: 29.92px;
-    color: var(--btn1Color);
-    border: none;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: all .1s ease-in-out;
-    background: none;
-    font-weight: 700;
+  position: relative;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #ed8a23;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  background: none;
+  font-weight: 700;
+  text-decoration: none;
+  transition: textDecoration 150ms ease;
+}
 
+.buttonGetInTouch::after {
+  content: "";
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 2px;
+  width: 0%;
+  background-color: #ed8a23;
+
+  transition: all 160ms ease-in-out;
+}
+
+.buttonGetInTouch:hover::after {
+  width: 70%;
+  color: #ffa800;
 }
 
 .btEmpthy {
-    background-color: transparent;
-    color:var(--btn1Color);
-     border: 2px solid var(--btn1Color);
+  background-color: transparent;
+  color: var(--mainTextColor);
+  border: 1px solid #ffffff;
 }
 
-.differentTexMainColor  {
-    padding: 10px 20px;
-    background: var(--btn1Color);
-    color: var(--btnTextColor);
-    cursor: pointer;
-    position: relative;
-    font-size: 20px;
-    line-height: auto;
-    border: none;
-    border-radius: 10px;
-    transition: all .4ms ease-in;
+.btEmpthy:hover {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #ffffff;
+}
+
+.differentTexMainColor {
+  padding: 10px 20px;
+  background: var(--btn1Color);
+  color: var(--btnTextColor);
+  cursor: pointer;
+  position: relative;
+  font-size: 20px;
+  line-height: auto;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.4ms ease-in;
 }
 
 .btnFooter {
-    padding: 0 !important; 
+  padding: 0 !important;
+  background-color: transparent;
+  font-size: 3.2rem;
+  border: none;
+}
+
+.btnFooter:hover {
     background-color: transparent;
     font-size: 3.2rem;
-}
-
-
-@media only screen and (max-width: 1150px) {
-    
-.button:hover::before {
-    opacity: 0;
-}
-
-.buttonGetInTouch:hover {
-    color: var(--navTextColor);
-}
-
-}
+    border: none;
+  }
+  

@@ -1,23 +1,31 @@
+"use client"
+
 import style from "./Story.module.css";
 import Button from "../UI/Buttons/Button";
 import Image from "next/image";
 import { storyData, storyDataEn } from "@/data/data";
 import { getStoryContent } from "@/data/language-handler";
+import { useParallax } from "react-scroll-parallax";
 
-import ourStoryCoverPhoto from "../../../public/assets/sections/Our_story.png";
+import ourStoryCoverPhoto from "../../../public/assets/sections/Our_story.webp";
 
 const Story = ({ lang }) => {
-  
   const { pText, pText2, h2Text, btnUrl, btnName } = getStoryContent(
     lang,
     storyData,
     storyDataEn
   );
 
+  const parallax = useParallax({
+    opacity	: [-1, 7],
+    speed:-3
+
+  });
+
+
   return (
-    <section className={style.container}>
-      <div className={style.imageContainer}>
-        <div className={style.layer}></div>
+    <section ref={parallax.ref} className={style.container}>
+      <div  className={style.imageContainer}>
         <Image
           placeholder="blur"
           priority
@@ -28,7 +36,6 @@ const Story = ({ lang }) => {
 
       <div className={style.textContainer}>
         <h2>{h2Text}</h2>
-        <span className={style.h1Span}></span>
         <p>
           {pText}
           <br />
@@ -37,7 +44,6 @@ const Story = ({ lang }) => {
         </p>
         <Button
           engColorPrefixBlue={lang ? true : false}
-          btEmpthy={true}
           url={btnUrl}
           name={btnName}
         />

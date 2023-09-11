@@ -15,8 +15,7 @@ import MobileMenu from "../Mobile/MobileMenu";
 import NavItems from "./NavItems";
 import LanguageLinks from "./LanguageLinks";
 import { usePathname } from "next/navigation";
-import {links} from '@/data/data'
-
+import { links } from "@/data/data";
 
 const textContentHu = {
   btnName: "asztalfoglalás",
@@ -25,7 +24,6 @@ const textContentHu = {
 const textContentEng = {
   btnName: "Book a table now",
 };
-
 
 const Navbar = ({ NavFooter, nav, colorMobileMenu }) => {
   const [mobileMenu, SetMobileMene] = useState(false);
@@ -68,7 +66,7 @@ const Navbar = ({ NavFooter, nav, colorMobileMenu }) => {
   const languageLinksLogic = `${style.lng} ${NavFooter && style.lngHide} ${
     nav && style.lngNav
   }`;
- 
+
   const btnEngLogic = `${
     pathname === "/en" ||
     pathname === "/en/menu" ||
@@ -77,7 +75,7 @@ const Navbar = ({ NavFooter, nav, colorMobileMenu }) => {
       ? textContentEng.btnName
       : textContentHu.btnName
   }`;
-  
+
   const btnHoverPrefix = `${
     pathname === "/en" ||
     pathname === "/en/menu" ||
@@ -92,7 +90,7 @@ const Navbar = ({ NavFooter, nav, colorMobileMenu }) => {
       <nav className={navClass}>
         {NavFooter && (
           <Link className={linkClass} href="/">
-            <Image alt="lanube étterem logója" src={logo_footer} />
+            <Image alt="La Nube étterem logója" src={logo_footer} />
           </Link>
         )}
 
@@ -103,10 +101,10 @@ const Navbar = ({ NavFooter, nav, colorMobileMenu }) => {
 
           <div className={socialLinkContainerLogic}>
             <Link href={links.facebook}>
-              <Image src={facebook} alt="lanube facebbok oldala" />
+              <Image src={facebook} alt="La Nube facebbok oldala" />
             </Link>
             <Link href={links.instagram}>
-              <Image src={instagram} alt="lanube instagram oldala" />
+              <Image src={instagram} alt="La Nube instagram oldala" />
             </Link>
           </div>
 

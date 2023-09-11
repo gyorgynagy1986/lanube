@@ -1,9 +1,8 @@
 import React from "react";
 
 export const metadata = {
-  title: "lanube",
-  description:
-    "lanube Restaurant Budapest: Delicious roasted chicken and duck with spicy potatoes. The best place to find quality flavors and a pleasant dining experience.",
+  title: "La Nube — Tapas & Vino",
+  description:  "We are waiting for you with a wide selection of Mediterranean dishes and an authentic Spanish atmosphere in our restaurant on Bartók Béla Street in Budapest.",
 };
 
 const EngPagelayout = ({ children }) => {

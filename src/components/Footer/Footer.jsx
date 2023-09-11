@@ -17,13 +17,13 @@ const Footer = () => {
     <footer className={style.container}>
         <div className={style.containerTextleft}>
           <p className={style.containerTextleftCookieMobile} >Cookie policy</p>    
-            <Button btnFooter={true} url={'/'} name={'GRUPO10'}/>
+            <Button btnFooter={true} url={'/'} name={'GRUPO 10'}/>
             <div className={style.containerTextP}>
                 <p className={style.containerTextleftP}></p>
             </div>
-            <Link href='https://www.grupo10.hu/'>Learn more about grupo10</Link>
+            <Link href='https://www.grupo10.hu/'>Learn more about GRUPO 10</Link>
             <div className={style.containerCookie}>
-                <div className={style.containerTextleftReserved}> <p> All rights reserved <span>©</span></p><p>Grupo10.hu</p> <p className={style.mobileTurn}>|</p> <p>2023</p> <Link style={bromoStyle} href={creatorlink}>Website by Studio Bromo</Link> </div>
+                <div className={style.containerTextleftReserved}> <p> All rights reserved <span>©</span></p><p>Grupo10.hu</p> <p className={style.mobileTurn}>|</p> <p>2023</p> <Link style={bromoStyle} href={creatorlink}>Designed and developed by Studio Bromo</Link> </div>
                 <p className={style.containerTextleftCookie} >Cookie policy</p>    
             </div>
         </div>

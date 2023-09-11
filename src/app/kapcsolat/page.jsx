@@ -2,53 +2,50 @@ import style from "./page.module.css";
 import Image from "next/image";
 import Button from "@/components/UI/Buttons/Button";
 import ButtonGetInTouch from "@/components/UI/Buttons/ButtonGetInTouch";
-import mapPhoto from "../../../public/assets/sections/map_contact.png";
+import mapPhoto from "../../../public/assets/sections/map_contact.webp";
 import facebook from "../../../public/assets/social/facebook.svg";
 import instagram from "../../../public/assets/social/instagram.svg";
-import { Dosis } from "next/font/google";
-const dosis = Dosis({ subsets: ["latin"] });
+import {links} from '@/data/data'
+import {contactData} from '@/data/data'
 
-const textContent = {
-  h3: "Restaurante lanube",
-  btn: "asztalfoglalás",
-  btn2: "kapcsolat",
-  facebook: "https://www.facebook.com/lanubechicken/?locale=hu_HU",
-  instagram: "https://www.instagram.com/lanubebp/?hl=hu",
-  reservation: "https://reservours.com/lanube/tablereservation?s=website",
-};
+
 
 const Contact = () => {
   return (
     <>
       <section className={style.container}>
         <div className={style.imageContainer}>
-          <div className={style.layer}></div>
-          <Image placeholder="blur" priority alt="lanube" src={mapPhoto} />
+          <Image placeholder="blur" priority alt="La Nube" src={mapPhoto} />
         </div>
         <div className={style.itemsContainer}>
           <div className={style.textContainer}>
-            <h1 className={dosis.className}>{textContent.h3}</h1>
+            <h1>{contactData.h3}</h1>
             <p className={style.contactText}>
-              1075 Budapest, Kazinczy utca 3b.
+             {contactData.address}
             </p>
-            <p className={style.contactText}>+ 36 30 317 69 65</p>
-            <p className={style.contactText}>hola@lanubebp.hu</p>
+            <p className={style.contactText}>{contactData.tel}</p>
+            <p className={style.contactText}>{contactData.email}</p>
           </div>
 
           <div className={style.btnContainer}>
             <div className={style.socialContainerItem}>
-              <Image alt="lanube étterem facebbok oldala" src={facebook} />
-              <ButtonGetInTouch url={textContent.facebook} name={"facebook"} />
+              <Image alt="La Nube étterem facebbok oldala" src={facebook} />
+              <ButtonGetInTouch
+                yellow={true}
+                url={links.facebook}
+                name={"facebook"}
+              />
             </div>
             <div className={style.socialContainerItem}>
-              <Image alt="lanube étterem isntagram oldala" src={instagram} />
+              <Image alt="La Nube étterem isntagram oldala" src={instagram} />
               <ButtonGetInTouch
-                url={textContent.instagram}
+                yellow={true}
+                url={links.instagram}
                 name={"instagram"}
               />
             </div>
             <div className={style.btnContainerItem}>
-              <Button url={textContent.reservation} name={textContent.btn} />
+              <Button url={links.reservation} name={contactData.btn} />
             </div>
           </div>
         </div>

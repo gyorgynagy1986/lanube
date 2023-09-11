@@ -6,14 +6,18 @@
     left: 0;
     background: #181818;
     z-index: 8888888;
+    background-color: aqua;
+
 }
 
 .stickynavContainer {
-  height: 8rem;
+  height: 11rem;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  background-color: aqua;
 }
 
 .opacity {
@@ -23,23 +27,22 @@
 
 .logo {
   position: absolute;
-  width: 60px;
-  top: 20px;
-  left: 8.5rem;
+  width: 80px;
+  top: 30px;
+  left: 0;
   z-index: 0;
 }
-
-@media only screen and (max-width: 1150px) {
-  .logo {
-    left: 4.5rem;
-  }
- }
 
 
 
 @media only screen and (max-width: 681px) {
   .logo {
-    left: 20px;
+    width: 60px;
+    top: 15px;
+  }
+  .stickynavContainer {
+    height: 8rem;
+   
   }
 
 }
