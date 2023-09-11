@@ -1,7 +1,7 @@
 import React from "react";
 
 export const metadata = {
-  title: "Galéria - La Nube",
+  title: "Galéria — La Nube",
 };
 
 const Pagelayout = ({ children }) => {

@@ -16,9 +16,9 @@ const textContent = {
 
 const textContentEn = {
   day: 'Monday - Friday :',
-  time: '12:00 - 23:00',
+  time: '17:00 - 23:00',
   day2: 'Saturday - Sunday :',
-  time2: '12:00 - 23:30',
+  time2: '12:00 - 23:00',
  // day3: 'Sunday',
  // time3: 'CLOSED'
 }

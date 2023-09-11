@@ -16,7 +16,7 @@ export const heroData = {
 
 export const heroDataEn = {
   h1: "La Nube",
-  p: "Welcome to the exciting world of Spanish cuisine with real Mediterranean atmosphere and plenty of delicacies!",
+  p: "Welcome to the exciting world of Spanish cuisine, with a real Mediterranean atmosphere and plenty of delicacies!",
   btn: "Book a table now",
   btn2: "Get in touch",
   url: "/en/contact",
@@ -99,7 +99,7 @@ export const ourEventData = {
 
 export const ourEventDataEn = {
   h2: "Want to have an event at La Nube?",
-  p: "Call us or drop us a message if you would like to hold an event with us and we are happy to be at your disposal!",
+  p: "Call us or drop us a message if you would like to hold an event with us, and we are happy to be at your disposal!",
   btn: "Get in touch",
   url: "/en/contact",
 };
@@ -114,8 +114,8 @@ export const contactData = {
   h3: "La Nube",
   btn: "asztalfoglalás",
   btn2: "kapcsolat",
-  address: "1075 Budapest, Kazinczy utca 3b.",
-  tel: "+ 36 30 317 69 65",
+  address: "1114 Budapest, Bartók Béla út 41.",
+  tel: " +36 20 439 5101",
   email: "hola@laubebp.hu",
 };
 
@@ -123,8 +123,8 @@ export const contactDataEn = {
   h3: "La Nube",
   btn: "Book a table now",
   btn2: "Get in touch",
-  address: "1075 Budapest, Kazinczy utca 3b.",
-  tel: "+ 36 30 317 69 65",
+  address: "1114 Budapest, Bartók Béla út 41.",
+  tel: " +36 20 439 5101",
   email: "hola@lanubebp.hu",
 };
 

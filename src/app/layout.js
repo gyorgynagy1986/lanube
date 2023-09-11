@@ -10,8 +10,8 @@ const dmSans = DM_Sans({
 });
 
 export const metadata = {
-  title: "La Nube",
-  description: "La Nube",
+  title: "Tapas & Vino — La Nube",
+  description: "Mediterrán ételek széles választékával és autentikus spanyol hangulattal várunk Budapesten a Bartók Béla úti éttermünkben.  ",
 };
 
 export default function RootLayout({ children }) {

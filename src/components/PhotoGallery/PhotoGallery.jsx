@@ -18,7 +18,6 @@ import photo8 from "../../../public/assets/gallery/photos/Gallery9.webp";
 import photo9 from "../../../public/assets/gallery/photos/Gallery10.webp";
 import photo10 from "../../../public/assets/gallery/photos/Gallery11.webp";
 import photo11 from "../../../public/assets/gallery/photos/Gallery12.webp";
-import photo12 from "../../../public/assets/gallery/photos/Gallery13.webp";
 
 
 import galleryCloseIcon from "../../../public/assets/icons/close.svg";
@@ -88,11 +87,6 @@ const PhotoGallery = ({ galleryClose, clickedItem }) => {
       id: 12,
       title: "Photo 12",
       imageUrl: photo11,
-    },
-    {
-      id: 13,
-      title: "Photo 13",
-      imageUrl: photo12,
     },
   ];
 
