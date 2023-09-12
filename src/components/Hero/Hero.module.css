@@ -45,11 +45,10 @@
 
 .textContainer h1 span {
   font-size: 80%;
-
 }
 
 .h1Span {
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
   width: 100%;
   max-width: var(--h1SpanMaxWidth);
   margin-bottom: 15px;
@@ -69,7 +68,6 @@
   max-width: var(--textMaxWidth);
   text-align: center;
 }
-
 
 .btnContainer {
   display: flex;
@@ -97,8 +95,8 @@
   }
 
   .btnContainer a {
-   width: 100%;
-   display: inline-grid;
+    width: 100%;
+    display: inline-grid;
   }
 
   .imageContainer img {
@@ -117,7 +115,6 @@
     align-items: center;
     width: 100%;
   }
-
 
   .btnContainer a button {
     margin-right: 0 !important;

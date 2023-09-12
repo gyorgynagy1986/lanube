@@ -9,7 +9,7 @@
   --btn1Color: #de0000;
   --btn2Color: #de0000;
   --btnTextColor: #ffffff;
-  --btnContact: #ED8A23;
+  --btnContact: #ed8a23;
 
   --titleColorHover: radial-gradient(
     72.58% 318.91% at 7.42% 100%,
@@ -37,7 +37,7 @@
   --ptext: max(16px, min(3vw, 17px));
 
   --ulLiTextSize: max(18px, min(3vw, 18px));
-  --ulLiTextLineH:27px;
+  --ulLiTextLineH: 27px;
 
   --h1titleSm: max(40px, min(10vw, 60px));
 
@@ -55,23 +55,20 @@
 
   --imageContainerWidth: 55%;
   --imgMaxW: 1000px;
-  
-  --h1SpanMaxWidth:50px;
 
- /*PAGES*/
+  --h1SpanMaxWidth: 50px;
 
-  --pageH1MarginTop:10.5rem;
-  --pageH1MarginBottom:8.5rem;
+  /*PAGES*/
 
+  --pageH1MarginTop: 10.5rem;
+  --pageH1MarginBottom: 8.5rem;
 
-  
   /*Event join US*/
   --eventContainerPadding: 5rem 8rem 5rem 8rem;
-  --eventAndJoinUsContainerWidth:50%;
-  --maxWJoinUseAndEvent:950px;
+  --eventAndJoinUsContainerWidth: 50%;
+  --maxWJoinUseAndEvent: 950px;
   --h2titleJoinandEvent: max(28px, min(3vw, 32px));
 }
-
 
 /*TABLET*/
 
@@ -84,7 +81,7 @@
     --h1title: max(32px, min(5vw, 42px));
     --h2title: max(24px, min(5vw, 32px));
     --eventContainerPadding: 5rem 4rem 5rem 4rem;
-    --eventAndJoinUsContainerWidth:100%;
+    --eventAndJoinUsContainerWidth: 100%;
   }
 }
 
@@ -95,10 +92,9 @@
     --textMaxWidth: 100%;
     --textContainerPaddingTopBottom: 2rem;
     --h2lineH: 31.25px;
-    --pageH1MarginTop:4rem;
-    --pageH1MarginBottom:5rem;
+    --pageH1MarginTop: 4rem;
+    --pageH1MarginBottom: 5rem;
     --eventContainerPadding: 4rem 2rem 4rem 2rem;
-
   }
 }
 
@@ -106,16 +102,15 @@
 
 @media only screen and (min-width: 1800px) {
   :root {
-    --h1SpanMaxWidth:100px;
+    --h1SpanMaxWidth: 100px;
     --h2lineH: 60.66px;
     --ulLiTextSize: max(14px, min(3vw, 22px));
-    --ulLiTextLineH:30px;
+    --ulLiTextLineH: 30px;
     --ptext: max(17px, min(4vw, 19px));
     --plineH: 25.83px;
     --h2titleJoinandEvent: max(32px, min(3vw, 48px));
   }
 }
-
 
 *::-webkit-scrollbar {
   width: 0.8em;
@@ -181,13 +176,13 @@ h1 {
 
 h1::after {
   content: "";
-  width: 100%; /* Use 100% to span the entire width of the container */
-  height: 3px; /* Adjust the thickness of the underline */
+  width: 100%;
+  height: 3px;
   max-width: 50px;
-  background-color: #FFFFFF; /* Set the underline color */
+  background-color: #ffffff;
   position: absolute;
-  bottom: -15px; /* Adjust this value to control the distance between text and underline */
-  left: 50%; /* Center the underline horizontally */
+  bottom: -15px;
+  left: 50%;
   transform: translateX(-50%);
 }
 
@@ -198,34 +193,15 @@ h2 {
 
 h2::after {
   content: "";
-  width: 100%; /* Use 100% to span the entire width of the container */
-  height: 3px; /* Adjust the thickness of the underline */
+  width: 100%;
+  height: 3px;
   max-width: 50px;
-  background-color: #FFFFFF; /* Set the underline color */
+  background-color: #ffffff;
   position: absolute;
-  bottom: -15px; /* Adjust this value to control the distance between text and underline */
-  left: 50%; /* Center the underline horizontally */
+  bottom: -15px;
+  left: 50%;
   transform: translateX(-50%);
 }
-
-.emailSpan {
-  text-decoration: none !important;
-  position: relative;
-  width: 100%;
-  height: 100%;
-
-}
-
-.emailSpan::after {
- content: "";
- position: absolute;
- background-color: white;
- width: 100%;
- height: 1px;
- bottom: -1px;
- left: 0;
-}
-
 
 .image-container {
   position: relative;
@@ -242,7 +218,7 @@ h2::after {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width:100%; /* A nagyított kép mérete */
+  width: 100%; /* A nagyított kép mérete */
   height: 100%; /* A nagyított kép mérete */
   background-repeat: no-repeat;
   background-size: cover;
