@@ -30,8 +30,8 @@ export const heroDataEn = {
 
 export const storyData = {
   h4: "Rólunk",
-  p: "A főváros budai oldalán található tapas bárunkba a dél-spanyol tulajdonosok különleges gondossággal válogatott alapanyagai közvetlenül szülőhazájukból érkeznek.",
-  p1: "Olyan klasszikusokat is kóstolhatsz nálunk, mint a tortilla de patatas, a padrón paprika vagy a churros, de ha elmerülnél az új ízek tengerében, válassz akár egy grillezett polipot vagy andalúz tintahalat, melyeket különleges gondossággal és szakértelemmel készítünk el, hogy igazán autentikus ízélményt nyújtsunk. Itallapunkon pedig a legfinomabb spanyol borok és cavák sorakoznak, így minden fogás mellé megtalálod a tökéletes kiegészítést. Gyere és élvezd tapas kínálatunkat a Gárdonyi térhez közel, egy csendes kis utcában, akár a teraszunkon is!",
+  p: "A főváros budai oldalán található tapas bárunkba a dél-spanyol tulajdonosok kivételes gondossággal válogatott alapanyagai közvetlenül szülőhazájukból érkeznek.",
+  p1: "Olyan klasszikusokat is kóstolhatsz nálunk, mint a tortilla de patatas, a padrón paprika vagy a churros, de ha elmerülnél az új ízek tengerében, válassz akár egy grillezett polipot vagy andalúz tintahalat, melyeket különös odaadással és szakértelemmel készítünk el, hogy igazán autentikus ízélményt nyújtsunk. Itallapunkon pedig a legfinomabb spanyol borok és cavák sorakoznak, így minden fogás mellé megtalálod a tökéletes kiegészítést. Gyere és élvezd tapas kínálatunkat a Gárdonyi térhez közel, egy csendes kis utcában, akár a teraszunkon is!",
   btn: "étlapunk",
   url: "/etlap",
 };
