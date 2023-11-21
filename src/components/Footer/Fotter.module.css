@@ -87,6 +87,10 @@
   align-items: center;
 }
 
+.learnAbout {
+  width: max-content;
+}
+
 @media only screen and (max-width: 1150px) {
   .container {
     padding-left: 4rem;
