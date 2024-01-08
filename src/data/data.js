@@ -31,15 +31,15 @@ export const heroDataEn = {
 export const storyData = {
   h4: "Rólunk",
   p: "A főváros budai oldalán található tapas bárunkba a dél-spanyol tulajdonosok kivételes gondossággal válogatott alapanyagai közvetlenül szülőhazájukból érkeznek.",
-  p1: "Olyan klasszikusokat is kóstolhatsz nálunk, mint a tortilla de patatas, a padrón paprika vagy a churros, de ha elmerülnél az új ízek tengerében, válassz akár egy grillezett polipot vagy andalúz tintahalat, melyeket különös odaadással és szakértelemmel készítünk el, hogy igazán autentikus ízélményt nyújtsunk. Itallapunkon pedig a legfinomabb spanyol borok és cavák sorakoznak, így minden fogás mellé megtalálod a tökéletes kiegészítést. Gyere és élvezd tapas kínálatunkat a Gárdonyi térhez közel, egy csendes kis utcában, akár a teraszunkon is!",
+  p1: "Kóstold meg az olyan klasszikusokat, mint a tortilla de patatas, a padrón paprika vagy a churros, de ha elmerülnél az új ízek tengerében, válassz akár egy grillezett polipot vagy andalúz tintahalat, melyeket különös odaadással és szakértelemmel készítünk el, hogy igazán autentikus ízélményt nyújtsunk. Itallapunkon pedig a legfinomabb spanyol borok és cavák sorakoznak, így minden fogás mellé megtalálod a tökéletes kiegészítést.Gyere és élvezd tapas kínálatunkat a Gárdonyi térhez közel egy hangulatos, csendes kis utcában!",
   btn: "étlapunk",
   url: "/etlap",
 };
 
 export const storyDataEn = {
   h4: "About us",
-  p: "Located on the Buda side of the capital, our tapas bar welcomes you with specially selected ingredients of the southern Spanish owners, arriving directly from their homeland with exceptional care.",
-  p1: "You can also try classics with us, such as tortilla de patatas, padrón peppers or churros, however, if you would like to immerse yourself in the sea of new flavors, you can even choose a grilled octopus or andalusian style calamari, which we prepare with special care and expertise to provide the most authentic taste experience. On our drink menu, you will also find the finest Spanish wines and cavas, so you can discover the perfect complement to each course. Come and enjoy our selection of tapas in a small and quiet street close to Gárdonyi Square, even on our terrace!",
+  p: "Located on the Buda side of the capital, our tapas bar welcomes you with selected ingredients of the southern Spanish owners, arriving directly from their homeland.",
+  p1: "Don’t miss out the classics, such as tortilla de patatas, padrón peppers or churros, but if you’d like to immerse yourself in the sea of new flavors, you can even choose a grilled octopus or andalusian style calamari, which we prepare with special care and expertise to provide the most authentic taste experience. On our drink menu, you will find the finest Spanish wines and cavas, so you can discover the perfect complement to each course. Come and enjoy our selection of tapas in a quiet, and charming little street close to Gárdonyi Square!",
   btn: "see the menu",
   url: "/en/menu",
 };
