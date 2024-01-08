@@ -12,7 +12,7 @@ const text = (
     <a href="mailto:hola@lanubebp.hu" className={style.email}>
       hola@lanubebp.hu
     </a>{" "}
-    e-mail címre, és hamarosan felvesszük Veled a kapcsolatot!
+    <span style={{whiteSpace:'nowrap'}}>e-mail</span> címre, és hamarosan felvesszük Veled a kapcsolatot!
   </p>
 );
 
