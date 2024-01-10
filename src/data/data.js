@@ -7,7 +7,7 @@ export const links = {
 //SECTION HERO
 
 export const heroData = {
-  h1: "La Nube Tapas & Vino",
+  h1:"La Nube Tapas & Wine Restaurant",
   p: "Üdvözlünk a spanyol konyha izgalmas világában, igazi mediterrán hangulattal!",
   btn: "asztalfoglalás",
   btn2: "kapcsolat",
@@ -15,7 +15,7 @@ export const heroData = {
 };
 
 export const heroDataEn = {
-  h1: "La Nube",
+  h1: "La Nube Tapas & Wine Restaurant",
   p: "Welcome to the exciting world of Spanish cuisine, with a real Mediterranean atmosphere!",
   btn: "Book a table now",
   btn2: "Get in touch",
