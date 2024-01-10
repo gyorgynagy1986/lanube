@@ -21,7 +21,7 @@ const textEn = (
     If you would also like to join our team, send your CV to{" "}
     <a href="mailto:hola@lanubebp.hu" className={style.email}>
       hola@lanubebp.hu
-    </a>{" "}
+    </a>,{" "}
     and we will contact you soon!
   </p>
 );

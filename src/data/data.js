@@ -8,7 +8,7 @@ export const links = {
 
 export const heroData = {
   h1: "La Nube Tapas & Vino",
-  p: "Üdvözlünk a spanyol konyha izgalmas világában, igazi mediterrán hangulattal és rengeteg finomsággal!",
+  p: "Üdvözlünk a spanyol konyha izgalmas világában, igazi mediterrán hangulattal!",
   btn: "asztalfoglalás",
   btn2: "kapcsolat",
   url: "/kapcsolat",
@@ -16,7 +16,7 @@ export const heroData = {
 
 export const heroDataEn = {
   h1: "La Nube",
-  p: "Welcome to the exciting world of Spanish cuisine, with a real Mediterranean atmosphere and plenty of delicacies!",
+  p: "Welcome to the exciting world of Spanish cuisine, with a real Mediterranean atmosphere!",
   btn: "Book a table now",
   btn2: "Get in touch",
   url: "/en/contact",
@@ -30,16 +30,16 @@ export const heroDataEn = {
 
 export const storyData = {
   h4: "Rólunk",
-  p: "A főváros budai oldalán található tapas bárunkba a dél-spanyol tulajdonosok kivételes gondossággal válogatott alapanyagai közvetlenül szülőhazájukból érkeznek.",
-  p1: "Kóstold meg az olyan klasszikusokat, mint a tortilla de patatas, a padrón paprika vagy a churros, de ha elmerülnél az új ízek tengerében, válassz akár egy grillezett polipot vagy andalúz tintahalat, melyeket különös odaadással és szakértelemmel készítünk el, hogy igazán autentikus ízélményt nyújtsunk. Itallapunkon pedig a legfinomabb spanyol borok és cavák sorakoznak, így minden fogás mellé megtalálod a tökéletes kiegészítést.Gyere és élvezd tapas kínálatunkat a Gárdonyi térhez közel egy hangulatos, csendes kis utcában!",
+  p: "A főváros budai oldalán található tapas bárunkba a dél-spanyol tulajdonosok gondosan válogatott alapanyagai közvetlenül szülőhazájukból érkeznek. Az étlapon megtalálod az olyan klasszikusokat, mint a patatas bravas, a padrón paprika vagy a churros, de ha új ízekre vágysz, választhatsz akár egy vörösboros sertéspofát, grillezett polipot vagy andalúz tintahalat. Ételeinket különleges odaadással és szakértelemmel készítjük el, hogy valóban autentikus ízélményt nyújtsunk. Itallapunkon a legfinomabb spanyol borok és cavák sorakoznak, így minden fogáshoz megtalálod a tökéletes kiegészítést.",
+  p1: "Fedezd fel a mediterrán konyha remekeit egy hangulatos, csendes kis utcában, a Gárdonyi térhez közel!",
   btn: "étlapunk",
   url: "/etlap",
 };
 
 export const storyDataEn = {
   h4: "About us",
-  p: "Located on the Buda side of the capital, our tapas bar welcomes you with selected ingredients of the southern Spanish owners, arriving directly from their homeland.",
-  p1: "Don’t miss out the classics, such as tortilla de patatas, padrón peppers or churros, but if you’d like to immerse yourself in the sea of new flavors, you can even choose a grilled octopus or andalusian style calamari, which we prepare with special care and expertise to provide the most authentic taste experience. On our drink menu, you will find the finest Spanish wines and cavas, so you can discover the perfect complement to each course. Come and enjoy our selection of tapas in a quiet, and charming little street close to Gárdonyi Square!",
+  p: "In our tapas bar, located on the Buda side of the capital, we source carefully selected ingredients directly from the homeland of our southern Spanish owners. Our menu includes classics such as patatas bravas, padrón peppers, or churros. However, if you are seeking new flavors, you can even choose slow-cooked pork cheeks in red wine, grilled octopus, or Andalusian-style calamari. We prepare these dishes with special care and expertise to provide a truly authentic taste experience. Our drinks menu features the finest Spanish wines and cavas, ensuring you’ll find the perfect complement for each course.",
+  p1: "Discover the masterpieces of Mediterranean cuisine in a cozy, quiet little street, close to Gárdonyi Square!",
   btn: "see the menu",
   url: "/en/menu",
 };
