@@ -60,7 +60,7 @@ export const servicesData = {
 
 export const servicesDataEn = {
   h2: "Our Services ",
-  p: "Make a reservation and visit us any day of the week! Whether it is a romantic dinner or a meeting with friends or colleagues, we are here to provide you with an unforgettable Spanish gastronomic experience.",
+  p: "Reserve a table and visit us any day of the week! Whether it is a romantic dinner or a meeting with friends or colleagues, we are here to provide you with an unforgettable Spanish gastronomic experience.",
   p1: "Corporate events",
   p2: "Get-togethers",
   p3: "Birthday celebrations",
@@ -91,15 +91,15 @@ export const JoinUsDataEn = {
 //SECTION OUR EVENT END
 
 export const ourEventData = {
-  h2: "Szeretnél rendezvényt tartani a La Nube-ban? ",
-  p: "Hívj minket vagy küldj üzenetet, ha rendezvényt szeretnél tartani nálunk, mi pedig örömmel állunk rendelkezésedre!",
+  h2: "Szeretnél rendezvényt a La Nube-ban? ",
+  p: "Hívj minket vagy írj üzenetet, és mi örömmel állunk rendelkezésedre!",
   btn: "kapcsolat",
   url: "/kapcsolat",
 };
 
 export const ourEventDataEn = {
   h2: "Want to have an event at La Nube?",
-  p: "Call us or drop us a message if you would like to hold an event with us, and we are happy to be at your disposal!",
+  p: "Call us or drop a message if you’d like to hold an event with us, and we are happy to be at your disposal!",
   btn: "Get in touch",
   url: "/en/contact",
 };

@@ -18,7 +18,7 @@ const text = (
 
 const textEn = (
   <p className={style.h2}>
-    If you would also like to join our team, send your CV to{" "}
+    If you’d join our team, send your CV to{" "}
     <a href="mailto:hola@lanubebp.hu" className={style.email}>
       hola@lanubebp.hu
     </a>,{" "}
