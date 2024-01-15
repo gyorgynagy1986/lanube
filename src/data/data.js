@@ -91,15 +91,15 @@ export const JoinUsDataEn = {
 //SECTION OUR EVENT END
 
 export const ourEventData = {
-  h2: "Szeretnél rendezvényt a La Nube-ban? ",
-  p: "Hívj minket vagy írj üzenetet, és mi örömmel állunk rendelkezésedre!",
+  h2: "Szeretnél egy rendezvényt a La Nube-ban? ",
+  p: "Hívj minket, írj nekünk, és mi örömmel állunk rendelkezésedre!",
   btn: "kapcsolat",
   url: "/kapcsolat",
 };
 
 export const ourEventDataEn = {
-  h2: "Want to have an event at La Nube?",
-  p: "Call us or drop a message if you’d like to hold an event with us, and we are happy to be at your disposal!",
+  h2: "Interested in hosting an event at La Nube?",
+  p: "Feel free to contact us, we are here to assist you!",
   btn: "Get in touch",
   url: "/en/contact",
 };
