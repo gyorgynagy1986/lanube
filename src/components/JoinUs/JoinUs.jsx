@@ -8,7 +8,7 @@ import { getJoinUsContent } from "@/data/language-handler";
 
 const text = (
   <p className={style.h2}>
-   Ha Te is csatlakoznál csapatunkhoz, küldd el az önéletrajzod az {" "}
+  Ha szeretnél csatlakozni csapatunkhoz, küldd el az önéletrajzod az {" "}
     <a href="mailto:hola@lanubebp.hu" className={style.email}>
       hola@lanubebp.hu
     </a>{" "}

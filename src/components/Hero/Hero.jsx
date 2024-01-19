@@ -48,7 +48,7 @@ const Hero = ({ reservation, lang }) => {
           />
         </div>
         <div className={style.textContainer}>
-          <h1>La Nube<br /> <span> Tapas & Vino</span></h1>
+          <h1>La Nube<br /> <span style={{whiteSpace:"nowrap"}}> Tapas & Wine Restaurant </span></h1>
           <p>{pData}</p>
           <div className={style.btnContainer}>
             <Button

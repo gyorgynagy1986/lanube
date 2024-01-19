@@ -64,7 +64,7 @@
   --pageH1MarginBottom: 8.5rem;
 
   /*Event join US*/
-  --eventContainerPadding: 5rem 8rem 5rem 8rem;
+  --eventContainerPadding: 5rem 4rem 5rem 4rem;
   --eventAndJoinUsContainerWidth: 50%;
   --maxWJoinUseAndEvent: 950px;
   --h2titleJoinandEvent: max(28px, min(3vw, 32px));
@@ -94,7 +94,19 @@
     --h2lineH: 31.25px;
     --pageH1MarginTop: 4rem;
     --pageH1MarginBottom: 5rem;
-    --eventContainerPadding: 4rem 2rem 4rem 2rem;
+    --eventContainerPadding: 4rem 1rem 4rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  :root {
+    --h2titleJoinandEvent: 24px;
+  }
+}
+
+@media only screen and (max-width: 372px) {
+  :root {
+    --h2titleJoinandEvent: 23px;
   }
 }
 

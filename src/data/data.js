@@ -7,7 +7,7 @@ export const links = {
 //SECTION HERO
 
 export const heroData = {
-  h1:"La Nube Tapas & Wine Restaurant",
+  h1:"La Nube Tapas & Wine Restaurant ",
   p: "Üdvözlünk a spanyol konyha izgalmas világában, igazi mediterrán hangulattal!",
   btn: "asztalfoglalás",
   btn2: "kapcsolat",
@@ -31,7 +31,7 @@ export const heroDataEn = {
 export const storyData = {
   h4: "Rólunk",
   p: "A főváros budai oldalán található tapas bárunkba a dél-spanyol tulajdonosok gondosan válogatott alapanyagai közvetlenül szülőhazájukból érkeznek. Az étlapon megtalálod az olyan klasszikusokat, mint a patatas bravas, a padrón paprika vagy a churros, de ha új ízekre vágysz, választhatsz akár egy vörösboros sertéspofát, grillezett polipot vagy andalúz tintahalat. Ételeinket különleges odaadással és szakértelemmel készítjük el, hogy valóban autentikus ízélményt nyújtsunk. Itallapunkon a legfinomabb spanyol borok és cavák sorakoznak, így minden fogáshoz megtalálod a tökéletes kiegészítést.",
-  p1: "Fedezd fel a mediterrán konyha remekeit egy hangulatos, csendes kis utcában, a Gárdonyi térhez közel!",
+  p1: "Fedezd fel a mediterrán konyha remekeit egy hangulatos, csendes kis utcában, a Gárdonyi tér közelében!",
   btn: "étlapunk",
   url: "/etlap",
 };
@@ -52,7 +52,7 @@ export const storyDataEn = {
 
 export const servicesData = {
   h2: "Szolgáltatások ",
-  p: "Foglalj asztalt és látogass el hozzánk a hét bármely napján! Legyen szó romantikus vacsoráról, baráti vagy céges találkozóról, mi itt vagyunk, hogy egy felejthetetlen spanyol gasztronómiai élményt nyújtsunk.",
+  p: "Foglalj asztalt és látogass el hozzánk a hét bármely napján! Legyen szó romantikus vacsoráról, baráti vagy céges találkozóról, mi itt vagyunk, hogy egy felejthetetlen gasztronómiai élményt nyújtsunk.",
   p1: "Céges rendezvények",
   p2: "Baráti összejövetelek",
   p3: "Születésnapok",
@@ -60,7 +60,7 @@ export const servicesData = {
 
 export const servicesDataEn = {
   h2: "Our Services ",
-  p: "Reserve a table and visit us any day of the week! Whether it is a romantic dinner or a meeting with friends or colleagues, we are here to provide you with an unforgettable Spanish gastronomic experience.",
+  p: "Reserve a table and visit us any day of the week! Whether it is a romantic dinner or a meeting with friends or colleagues, we are here to provide you with an unforgettable gastronomic experience.",
   p1: "Corporate events",
   p2: "Get-togethers",
   p3: "Birthday celebrations",
