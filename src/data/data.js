@@ -31,7 +31,7 @@ export const heroDataEn = {
 export const storyData = {
   h4: "Rólunk",
   p: "A főváros budai oldalán található tapas bárunkba a dél-spanyol tulajdonosok gondosan válogatott alapanyagai közvetlenül szülőhazájukból érkeznek. Az étlapon megtalálod az olyan klasszikusokat, mint a patatas bravas, a padrón paprika vagy a churros, de ha új ízekre vágysz, választhatsz akár egy vörösboros sertéspofát, grillezett polipot vagy andalúz tintahalat. Ételeinket különleges odaadással és szakértelemmel készítjük el, hogy valóban autentikus ízélményt nyújtsunk. Itallapunkon a legfinomabb spanyol borok és cavák sorakoznak, így minden fogáshoz megtalálod a tökéletes kiegészítést.",
-  p1: "Fedezd fel a mediterrán konyha remekeit egy hangulatos, csendes kis utcában a Gárdonyi tér közelében!",
+  p1: "Fedezd fel a mediterrán konyha remekeit egy hangulatos, csendes kis utcában, a Gárdonyi tér közelében!",
   btn: "étlapunk",
   url: "/etlap",
 };
